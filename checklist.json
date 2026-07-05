@@ -1,0 +1,6362 @@
+{
+ "collection": "Panini FIFA World Cup 2026 Sticker Collection",
+ "total_stickers": 980,
+ "app_numbering_note": "app_number = flache Nummer in der iOS/Android-App \"Sticker Album 2026\" (MoovTech). App-Sektionen: 1-20 = FWC/Intro (00 + FWC1-19), 21-34 = Coca-Cola (14 Extra-Sticker, NICHT Teil der offiziellen 980), 35-994 = 48 Teams x 20. App-Gesamt = 994.",
+ "album_order_note": "Albumreihenfolge: Sticker 00 (Panini Logo), FWC1-FWC5 (Turnier-Specials), FWC6-FWC8 (Host Countries & Cities), dann 48 Teams in WM-Gruppenreihenfolge (Gruppe A-L, je 4 Teams), am Album-ENDE FWC9-FWC19 (World Cup History). Quelle Reihenfolge: laststicker.com; Namen: scanini.app + laststicker.com.",
+ "specials": [
+  {
+   "code": "00",
+   "name": "Panini Logo - We Are Panini",
+   "foil": true,
+   "section": "We Are Panini",
+   "album_position": "pre_teams",
+   "app_number": 1
+  },
+  {
+   "code": "FWC1",
+   "name": "Official Emblem",
+   "foil": true,
+   "section": "FIFA World Cup 2026",
+   "album_position": "pre_teams",
+   "app_number": 2
+  },
+  {
+   "code": "FWC2",
+   "name": "Official Emblem",
+   "foil": true,
+   "section": "FIFA World Cup 2026",
+   "album_position": "pre_teams",
+   "app_number": 3
+  },
+  {
+   "code": "FWC3",
+   "name": "Official Mascots",
+   "foil": true,
+   "section": "FIFA World Cup 2026",
+   "album_position": "pre_teams",
+   "app_number": 4
+  },
+  {
+   "code": "FWC4",
+   "name": "Official Slogan",
+   "foil": true,
+   "section": "FIFA World Cup 2026",
+   "album_position": "pre_teams",
+   "app_number": 5
+  },
+  {
+   "code": "FWC5",
+   "name": "Official Ball",
+   "foil": true,
+   "section": "FIFA World Cup 2026",
+   "album_position": "pre_teams",
+   "app_number": 6
+  },
+  {
+   "code": "FWC6",
+   "name": "Canada - Host Countries & Cities",
+   "foil": true,
+   "section": "Host Countries and Cities",
+   "album_position": "pre_teams",
+   "app_number": 7
+  },
+  {
+   "code": "FWC7",
+   "name": "Mexico - Host Countries & Cities",
+   "foil": true,
+   "section": "Host Countries and Cities",
+   "album_position": "pre_teams",
+   "app_number": 8
+  },
+  {
+   "code": "FWC8",
+   "name": "USA - Host Countries & Cities",
+   "foil": true,
+   "section": "Host Countries and Cities",
+   "album_position": "pre_teams",
+   "app_number": 9
+  },
+  {
+   "code": "FWC9",
+   "name": "Italy 1934 - World Cup History",
+   "foil": true,
+   "section": "FIFA World Cup History",
+   "album_position": "post_teams",
+   "app_number": 10
+  },
+  {
+   "code": "FWC10",
+   "name": "Uruguay 1950 - World Cup History",
+   "foil": true,
+   "section": "FIFA World Cup History",
+   "album_position": "post_teams",
+   "app_number": 11
+  },
+  {
+   "code": "FWC11",
+   "name": "West Germany 1954 - World Cup History",
+   "foil": true,
+   "section": "FIFA World Cup History",
+   "album_position": "post_teams",
+   "app_number": 12
+  },
+  {
+   "code": "FWC12",
+   "name": "Brazil 1962 - World Cup History",
+   "foil": true,
+   "section": "FIFA World Cup History",
+   "album_position": "post_teams",
+   "app_number": 13
+  },
+  {
+   "code": "FWC13",
+   "name": "West Germany 1974 - World Cup History",
+   "foil": true,
+   "section": "FIFA World Cup History",
+   "album_position": "post_teams",
+   "app_number": 14
+  },
+  {
+   "code": "FWC14",
+   "name": "Argentina 1986 - World Cup History",
+   "foil": true,
+   "section": "FIFA World Cup History",
+   "album_position": "post_teams",
+   "app_number": 15
+  },
+  {
+   "code": "FWC15",
+   "name": "Brazil 1994 - World Cup History",
+   "foil": true,
+   "section": "FIFA World Cup History",
+   "album_position": "post_teams",
+   "app_number": 16
+  },
+  {
+   "code": "FWC16",
+   "name": "Brazil 2002 - World Cup History",
+   "foil": true,
+   "section": "FIFA World Cup History",
+   "album_position": "post_teams",
+   "app_number": 17
+  },
+  {
+   "code": "FWC17",
+   "name": "Italy 2006 - World Cup History",
+   "foil": true,
+   "section": "FIFA World Cup History",
+   "album_position": "post_teams",
+   "app_number": 18
+  },
+  {
+   "code": "FWC18",
+   "name": "Germany 2014 - World Cup History",
+   "foil": true,
+   "section": "FIFA World Cup History",
+   "album_position": "post_teams",
+   "app_number": 19
+  },
+  {
+   "code": "FWC19",
+   "name": "Argentina 2022 - World Cup History",
+   "foil": true,
+   "section": "FIFA World Cup History",
+   "album_position": "post_teams",
+   "app_number": 20
+  }
+ ],
+ "teams": [
+  {
+   "code": "MEX",
+   "name": "Mexiko",
+   "name_en": "Mexico",
+   "order": 1,
+   "group": "A",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 35
+    },
+    {
+     "num": 2,
+     "name": "Luis Malagón",
+     "foil": false,
+     "app_number": 36
+    },
+    {
+     "num": 3,
+     "name": "Johan Vasquez",
+     "foil": false,
+     "app_number": 37
+    },
+    {
+     "num": 4,
+     "name": "Jorge Sánchez",
+     "foil": false,
+     "app_number": 38
+    },
+    {
+     "num": 5,
+     "name": "Cesar Montes",
+     "foil": false,
+     "app_number": 39
+    },
+    {
+     "num": 6,
+     "name": "Jesus Gallardo",
+     "foil": false,
+     "app_number": 40
+    },
+    {
+     "num": 7,
+     "name": "Israel Reyes",
+     "foil": false,
+     "app_number": 41
+    },
+    {
+     "num": 8,
+     "name": "Diego Lainez",
+     "foil": false,
+     "app_number": 42
+    },
+    {
+     "num": 9,
+     "name": "Carlos Rodriguez",
+     "foil": false,
+     "app_number": 43
+    },
+    {
+     "num": 10,
+     "name": "Edson Alvarez",
+     "foil": false,
+     "app_number": 44
+    },
+    {
+     "num": 11,
+     "name": "Orbelin Pineda",
+     "foil": false,
+     "app_number": 45
+    },
+    {
+     "num": 12,
+     "name": "Marcel Ruiz",
+     "foil": false,
+     "app_number": 46
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 47
+    },
+    {
+     "num": 14,
+     "name": "Érick Sánchez",
+     "foil": false,
+     "app_number": 48
+    },
+    {
+     "num": 15,
+     "name": "Hirving Lozano",
+     "foil": false,
+     "app_number": 49
+    },
+    {
+     "num": 16,
+     "name": "Santiago Giménez",
+     "foil": false,
+     "app_number": 50
+    },
+    {
+     "num": 17,
+     "name": "Raúl Jiménez",
+     "foil": false,
+     "app_number": 51
+    },
+    {
+     "num": 18,
+     "name": "Alexis Vega",
+     "foil": false,
+     "app_number": 52
+    },
+    {
+     "num": 19,
+     "name": "Roberto Alvarado",
+     "foil": false,
+     "app_number": 53
+    },
+    {
+     "num": 20,
+     "name": "Cesar Huerta",
+     "foil": false,
+     "app_number": 54
+    }
+   ]
+  },
+  {
+   "code": "RSA",
+   "name": "Südafrika",
+   "name_en": "South Africa",
+   "order": 2,
+   "group": "A",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 55
+    },
+    {
+     "num": 2,
+     "name": "Ronwen Williams",
+     "foil": false,
+     "app_number": 56
+    },
+    {
+     "num": 3,
+     "name": "Sipho Chaine",
+     "foil": false,
+     "app_number": 57
+    },
+    {
+     "num": 4,
+     "name": "Aubrey Modiba",
+     "foil": false,
+     "app_number": 58
+    },
+    {
+     "num": 5,
+     "name": "Samukele Kabini",
+     "foil": false,
+     "app_number": 59
+    },
+    {
+     "num": 6,
+     "name": "Mbekezeli Mbokazi",
+     "foil": false,
+     "app_number": 60
+    },
+    {
+     "num": 7,
+     "name": "Khulumani Ndamane",
+     "foil": false,
+     "app_number": 61
+    },
+    {
+     "num": 8,
+     "name": "Siyabonga Ngezana",
+     "foil": false,
+     "app_number": 62
+    },
+    {
+     "num": 9,
+     "name": "Khuliso Mudau",
+     "foil": false,
+     "app_number": 63
+    },
+    {
+     "num": 10,
+     "name": "Nkosinathi Sibisi",
+     "foil": false,
+     "app_number": 64
+    },
+    {
+     "num": 11,
+     "name": "Teboho Mokoena",
+     "foil": false,
+     "app_number": 65
+    },
+    {
+     "num": 12,
+     "name": "Thalente Mbatha",
+     "foil": false,
+     "app_number": 66
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 67
+    },
+    {
+     "num": 14,
+     "name": "Bathusi Aubaas",
+     "foil": false,
+     "app_number": 68
+    },
+    {
+     "num": 15,
+     "name": "Yaya Sithole",
+     "foil": false,
+     "app_number": 69
+    },
+    {
+     "num": 16,
+     "name": "Sipho Mbule",
+     "foil": false,
+     "app_number": 70
+    },
+    {
+     "num": 17,
+     "name": "Lyle Foster",
+     "foil": false,
+     "app_number": 71
+    },
+    {
+     "num": 18,
+     "name": "Iqraam Rayners",
+     "foil": false,
+     "app_number": 72
+    },
+    {
+     "num": 19,
+     "name": "Mohau Nkota",
+     "foil": false,
+     "app_number": 73
+    },
+    {
+     "num": 20,
+     "name": "Oswin Appollis",
+     "foil": false,
+     "app_number": 74
+    }
+   ]
+  },
+  {
+   "code": "KOR",
+   "name": "Südkorea",
+   "name_en": "South Korea",
+   "order": 3,
+   "group": "A",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 75
+    },
+    {
+     "num": 2,
+     "name": "Hyeon-woo Jo",
+     "foil": false,
+     "app_number": 76
+    },
+    {
+     "num": 3,
+     "name": "Seung-Gyu Kim",
+     "foil": false,
+     "app_number": 77
+    },
+    {
+     "num": 4,
+     "name": "Min-jae Kim",
+     "foil": false,
+     "app_number": 78
+    },
+    {
+     "num": 5,
+     "name": "Yu-min Cho",
+     "foil": false,
+     "app_number": 79
+    },
+    {
+     "num": 6,
+     "name": "Young-woo Seol",
+     "foil": false,
+     "app_number": 80
+    },
+    {
+     "num": 7,
+     "name": "Han-beom Lee",
+     "foil": false,
+     "app_number": 81
+    },
+    {
+     "num": 8,
+     "name": "Tae-seok Lee",
+     "foil": false,
+     "app_number": 82
+    },
+    {
+     "num": 9,
+     "name": "Myung-jae Lee",
+     "foil": false,
+     "app_number": 83
+    },
+    {
+     "num": 10,
+     "name": "Jae-sung Lee",
+     "foil": false,
+     "app_number": 84
+    },
+    {
+     "num": 11,
+     "name": "In-beom Hwang",
+     "foil": false,
+     "app_number": 85
+    },
+    {
+     "num": 12,
+     "name": "Kang-in Lee",
+     "foil": false,
+     "app_number": 86
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 87
+    },
+    {
+     "num": 14,
+     "name": "Seung-ho Paik",
+     "foil": false,
+     "app_number": 88
+    },
+    {
+     "num": 15,
+     "name": "Jens Castrop",
+     "foil": false,
+     "app_number": 89
+    },
+    {
+     "num": 16,
+     "name": "Dongg-yeong Lee",
+     "foil": false,
+     "app_number": 90
+    },
+    {
+     "num": 17,
+     "name": "Gue-sung Cho",
+     "foil": false,
+     "app_number": 91
+    },
+    {
+     "num": 18,
+     "name": "Heung-min Son",
+     "foil": false,
+     "app_number": 92
+    },
+    {
+     "num": 19,
+     "name": "Hee-chan Hwang",
+     "foil": false,
+     "app_number": 93
+    },
+    {
+     "num": 20,
+     "name": "Hyeon-Gyu Oh",
+     "foil": false,
+     "app_number": 94
+    }
+   ]
+  },
+  {
+   "code": "CZE",
+   "name": "Tschechien",
+   "name_en": "Czechia",
+   "order": 4,
+   "group": "A",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 95
+    },
+    {
+     "num": 2,
+     "name": "Matej Kovar",
+     "foil": false,
+     "app_number": 96
+    },
+    {
+     "num": 3,
+     "name": "Jindrich Stanek",
+     "foil": false,
+     "app_number": 97
+    },
+    {
+     "num": 4,
+     "name": "Ladislav Krejci",
+     "foil": false,
+     "app_number": 98
+    },
+    {
+     "num": 5,
+     "name": "Vladimir Coufal",
+     "foil": false,
+     "app_number": 99
+    },
+    {
+     "num": 6,
+     "name": "Jaroslav Zeleny",
+     "foil": false,
+     "app_number": 100
+    },
+    {
+     "num": 7,
+     "name": "Tomas Holes",
+     "foil": false,
+     "app_number": 101
+    },
+    {
+     "num": 8,
+     "name": "David Zima",
+     "foil": false,
+     "app_number": 102
+    },
+    {
+     "num": 9,
+     "name": "Michal Sadilek",
+     "foil": false,
+     "app_number": 103
+    },
+    {
+     "num": 10,
+     "name": "Lukas Provod",
+     "foil": false,
+     "app_number": 104
+    },
+    {
+     "num": 11,
+     "name": "Lukas Cerv",
+     "foil": false,
+     "app_number": 105
+    },
+    {
+     "num": 12,
+     "name": "Tomas Soucek",
+     "foil": false,
+     "app_number": 106
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 107
+    },
+    {
+     "num": 14,
+     "name": "Pavel Sulc",
+     "foil": false,
+     "app_number": 108
+    },
+    {
+     "num": 15,
+     "name": "Matej Vydra",
+     "foil": false,
+     "app_number": 109
+    },
+    {
+     "num": 16,
+     "name": "Vasil Kusej",
+     "foil": false,
+     "app_number": 110
+    },
+    {
+     "num": 17,
+     "name": "Tomas Chory",
+     "foil": false,
+     "app_number": 111
+    },
+    {
+     "num": 18,
+     "name": "Vaclav Cerny",
+     "foil": false,
+     "app_number": 112
+    },
+    {
+     "num": 19,
+     "name": "Adam Hlozek",
+     "foil": false,
+     "app_number": 113
+    },
+    {
+     "num": 20,
+     "name": "Patrik Schick",
+     "foil": false,
+     "app_number": 114
+    }
+   ]
+  },
+  {
+   "code": "CAN",
+   "name": "Kanada",
+   "name_en": "Canada",
+   "order": 5,
+   "group": "B",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 115
+    },
+    {
+     "num": 2,
+     "name": "Dayne St.Clair",
+     "foil": false,
+     "app_number": 116
+    },
+    {
+     "num": 3,
+     "name": "Alphonso Davies",
+     "foil": false,
+     "app_number": 117
+    },
+    {
+     "num": 4,
+     "name": "Alistair Johnston",
+     "foil": false,
+     "app_number": 118
+    },
+    {
+     "num": 5,
+     "name": "Samuel Adekugbe",
+     "foil": false,
+     "app_number": 119
+    },
+    {
+     "num": 6,
+     "name": "Richie Laryea",
+     "foil": false,
+     "app_number": 120
+    },
+    {
+     "num": 7,
+     "name": "Derek Cornelius",
+     "foil": false,
+     "app_number": 121
+    },
+    {
+     "num": 8,
+     "name": "Moïse Bombito",
+     "foil": false,
+     "app_number": 122
+    },
+    {
+     "num": 9,
+     "name": "Kamal Miller",
+     "foil": false,
+     "app_number": 123
+    },
+    {
+     "num": 10,
+     "name": "Stephen Eustáquio",
+     "foil": false,
+     "app_number": 124
+    },
+    {
+     "num": 11,
+     "name": "Ismaël Koné",
+     "foil": false,
+     "app_number": 125
+    },
+    {
+     "num": 12,
+     "name": "Jonathan Osorio",
+     "foil": false,
+     "app_number": 126
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 127
+    },
+    {
+     "num": 14,
+     "name": "Jacob Shaffelburg",
+     "foil": false,
+     "app_number": 128
+    },
+    {
+     "num": 15,
+     "name": "Mathieu Choinière",
+     "foil": false,
+     "app_number": 129
+    },
+    {
+     "num": 16,
+     "name": "Niko Sigur",
+     "foil": false,
+     "app_number": 130
+    },
+    {
+     "num": 17,
+     "name": "Tajon Buchanan",
+     "foil": false,
+     "app_number": 131
+    },
+    {
+     "num": 18,
+     "name": "Liam Millar",
+     "foil": false,
+     "app_number": 132
+    },
+    {
+     "num": 19,
+     "name": "Cyle Larin",
+     "foil": false,
+     "app_number": 133
+    },
+    {
+     "num": 20,
+     "name": "Jonathan David",
+     "foil": false,
+     "app_number": 134
+    }
+   ]
+  },
+  {
+   "code": "BIH",
+   "name": "Bosnien und Herzegowina",
+   "name_en": "Bosnia and Herzegovina",
+   "order": 6,
+   "group": "B",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 135
+    },
+    {
+     "num": 2,
+     "name": "Nikola Vasilj",
+     "foil": false,
+     "app_number": 136
+    },
+    {
+     "num": 3,
+     "name": "Amer Dedic",
+     "foil": false,
+     "app_number": 137
+    },
+    {
+     "num": 4,
+     "name": "Sead Kolasinac",
+     "foil": false,
+     "app_number": 138
+    },
+    {
+     "num": 5,
+     "name": "Tarik Muharemovic",
+     "foil": false,
+     "app_number": 139
+    },
+    {
+     "num": 6,
+     "name": "Nihad Mujakic",
+     "foil": false,
+     "app_number": 140
+    },
+    {
+     "num": 7,
+     "name": "Nikola Katic",
+     "foil": false,
+     "app_number": 141
+    },
+    {
+     "num": 8,
+     "name": "Amir Hadziahmetovic",
+     "foil": false,
+     "app_number": 142
+    },
+    {
+     "num": 9,
+     "name": "Benjamin Tahirovic",
+     "foil": false,
+     "app_number": 143
+    },
+    {
+     "num": 10,
+     "name": "Armin Gigovic",
+     "foil": false,
+     "app_number": 144
+    },
+    {
+     "num": 11,
+     "name": "Ivan Sunjic",
+     "foil": false,
+     "app_number": 145
+    },
+    {
+     "num": 12,
+     "name": "Ivan Basic",
+     "foil": false,
+     "app_number": 146
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 147
+    },
+    {
+     "num": 14,
+     "name": "Dzenis Burnic",
+     "foil": false,
+     "app_number": 148
+    },
+    {
+     "num": 15,
+     "name": "Esmir Bajraktarevic",
+     "foil": false,
+     "app_number": 149
+    },
+    {
+     "num": 16,
+     "name": "Amar Memic",
+     "foil": false,
+     "app_number": 150
+    },
+    {
+     "num": 17,
+     "name": "Ermedin Demirovic",
+     "foil": false,
+     "app_number": 151
+    },
+    {
+     "num": 18,
+     "name": "Edin Dzeko",
+     "foil": false,
+     "app_number": 152
+    },
+    {
+     "num": 19,
+     "name": "Samed Bazdar",
+     "foil": false,
+     "app_number": 153
+    },
+    {
+     "num": 20,
+     "name": "Haris Tabakovic",
+     "foil": false,
+     "app_number": 154
+    }
+   ]
+  },
+  {
+   "code": "QAT",
+   "name": "Katar",
+   "name_en": "Qatar",
+   "order": 7,
+   "group": "B",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 155
+    },
+    {
+     "num": 2,
+     "name": "Meshaal Barsham",
+     "foil": false,
+     "app_number": 156
+    },
+    {
+     "num": 3,
+     "name": "Sultan Albrake",
+     "foil": false,
+     "app_number": 157
+    },
+    {
+     "num": 4,
+     "name": "Lucas Mendes",
+     "foil": false,
+     "app_number": 158
+    },
+    {
+     "num": 5,
+     "name": "Homam Ahmed",
+     "foil": false,
+     "app_number": 159
+    },
+    {
+     "num": 6,
+     "name": "Boualem Khoukhi",
+     "foil": false,
+     "app_number": 160
+    },
+    {
+     "num": 7,
+     "name": "Pedro Miguel",
+     "foil": false,
+     "app_number": 161
+    },
+    {
+     "num": 8,
+     "name": "Tarek Salman",
+     "foil": false,
+     "app_number": 162
+    },
+    {
+     "num": 9,
+     "name": "Mohamed Al-Mannai",
+     "foil": false,
+     "app_number": 163
+    },
+    {
+     "num": 10,
+     "name": "Karim Boudiaf",
+     "foil": false,
+     "app_number": 164
+    },
+    {
+     "num": 11,
+     "name": "Assim Madibo",
+     "foil": false,
+     "app_number": 165
+    },
+    {
+     "num": 12,
+     "name": "Ahmed Fatehi",
+     "foil": false,
+     "app_number": 166
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 167
+    },
+    {
+     "num": 14,
+     "name": "Mohammed Waad",
+     "foil": false,
+     "app_number": 168
+    },
+    {
+     "num": 15,
+     "name": "Abdulaziz Hatem",
+     "foil": false,
+     "app_number": 169
+    },
+    {
+     "num": 16,
+     "name": "Hassan Al-Haydos",
+     "foil": false,
+     "app_number": 170
+    },
+    {
+     "num": 17,
+     "name": "Edmilson Junior",
+     "foil": false,
+     "app_number": 171
+    },
+    {
+     "num": 18,
+     "name": "Akram Hassan Afif",
+     "foil": false,
+     "app_number": 172
+    },
+    {
+     "num": 19,
+     "name": "Ahmed Al Ganehi",
+     "foil": false,
+     "app_number": 173
+    },
+    {
+     "num": 20,
+     "name": "Almoez Ali",
+     "foil": false,
+     "app_number": 174
+    }
+   ]
+  },
+  {
+   "code": "SUI",
+   "name": "Schweiz",
+   "name_en": "Switzerland",
+   "order": 8,
+   "group": "B",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 175
+    },
+    {
+     "num": 2,
+     "name": "Gregor Kobel",
+     "foil": false,
+     "app_number": 176
+    },
+    {
+     "num": 3,
+     "name": "Yvon Mvogo",
+     "foil": false,
+     "app_number": 177
+    },
+    {
+     "num": 4,
+     "name": "Manuel Akanji",
+     "foil": false,
+     "app_number": 178
+    },
+    {
+     "num": 5,
+     "name": "Ricardo Rodriguez",
+     "foil": false,
+     "app_number": 179
+    },
+    {
+     "num": 6,
+     "name": "Nico Elvedi",
+     "foil": false,
+     "app_number": 180
+    },
+    {
+     "num": 7,
+     "name": "Aurèle Amenda",
+     "foil": false,
+     "app_number": 181
+    },
+    {
+     "num": 8,
+     "name": "Silvan Widmer",
+     "foil": false,
+     "app_number": 182
+    },
+    {
+     "num": 9,
+     "name": "Granit Xhaka",
+     "foil": false,
+     "app_number": 183
+    },
+    {
+     "num": 10,
+     "name": "Denis Zakaria",
+     "foil": false,
+     "app_number": 184
+    },
+    {
+     "num": 11,
+     "name": "Remo Freuler",
+     "foil": false,
+     "app_number": 185
+    },
+    {
+     "num": 12,
+     "name": "Fabian Rieder",
+     "foil": false,
+     "app_number": 186
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 187
+    },
+    {
+     "num": 14,
+     "name": "Ardon Jashari",
+     "foil": false,
+     "app_number": 188
+    },
+    {
+     "num": 15,
+     "name": "Johan Manzambi",
+     "foil": false,
+     "app_number": 189
+    },
+    {
+     "num": 16,
+     "name": "Michel Aebischer",
+     "foil": false,
+     "app_number": 190
+    },
+    {
+     "num": 17,
+     "name": "Breel Embolo",
+     "foil": false,
+     "app_number": 191
+    },
+    {
+     "num": 18,
+     "name": "Ruben Vargas",
+     "foil": false,
+     "app_number": 192
+    },
+    {
+     "num": 19,
+     "name": "Dan Ndoye",
+     "foil": false,
+     "app_number": 193
+    },
+    {
+     "num": 20,
+     "name": "Zeki Amdouni",
+     "foil": false,
+     "app_number": 194
+    }
+   ]
+  },
+  {
+   "code": "BRA",
+   "name": "Brasilien",
+   "name_en": "Brazil",
+   "order": 9,
+   "group": "C",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 195
+    },
+    {
+     "num": 2,
+     "name": "Alisson",
+     "foil": false,
+     "app_number": 196
+    },
+    {
+     "num": 3,
+     "name": "Bento",
+     "foil": false,
+     "app_number": 197
+    },
+    {
+     "num": 4,
+     "name": "Marquinhos",
+     "foil": false,
+     "app_number": 198
+    },
+    {
+     "num": 5,
+     "name": "Éder Militão",
+     "foil": false,
+     "app_number": 199
+    },
+    {
+     "num": 6,
+     "name": "Gabriel Magalhães",
+     "foil": false,
+     "app_number": 200
+    },
+    {
+     "num": 7,
+     "name": "Danilo",
+     "foil": false,
+     "app_number": 201
+    },
+    {
+     "num": 8,
+     "name": "Wesley",
+     "foil": false,
+     "app_number": 202
+    },
+    {
+     "num": 9,
+     "name": "Lucas Paquetá",
+     "foil": false,
+     "app_number": 203
+    },
+    {
+     "num": 10,
+     "name": "Casemiro",
+     "foil": false,
+     "app_number": 204
+    },
+    {
+     "num": 11,
+     "name": "Bruno Guimarães",
+     "foil": false,
+     "app_number": 205
+    },
+    {
+     "num": 12,
+     "name": "Luiz Henrique",
+     "foil": false,
+     "app_number": 206
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 207
+    },
+    {
+     "num": 14,
+     "name": "Vinicius Júnior",
+     "foil": false,
+     "app_number": 208
+    },
+    {
+     "num": 15,
+     "name": "Rodrygo",
+     "foil": false,
+     "app_number": 209
+    },
+    {
+     "num": 16,
+     "name": "João Pedro",
+     "foil": false,
+     "app_number": 210
+    },
+    {
+     "num": 17,
+     "name": "Matheus Cunha",
+     "foil": false,
+     "app_number": 211
+    },
+    {
+     "num": 18,
+     "name": "Gabriel Martinelli",
+     "foil": false,
+     "app_number": 212
+    },
+    {
+     "num": 19,
+     "name": "Raphinha",
+     "foil": false,
+     "app_number": 213
+    },
+    {
+     "num": 20,
+     "name": "Estévão",
+     "foil": false,
+     "app_number": 214
+    }
+   ]
+  },
+  {
+   "code": "MAR",
+   "name": "Marokko",
+   "name_en": "Morocco",
+   "order": 10,
+   "group": "C",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 215
+    },
+    {
+     "num": 2,
+     "name": "Yassine Bounou",
+     "foil": false,
+     "app_number": 216
+    },
+    {
+     "num": 3,
+     "name": "Munir El Kajoui",
+     "foil": false,
+     "app_number": 217
+    },
+    {
+     "num": 4,
+     "name": "Achraf Hakimi",
+     "foil": false,
+     "app_number": 218
+    },
+    {
+     "num": 5,
+     "name": "Noussair Mazraoui",
+     "foil": false,
+     "app_number": 219
+    },
+    {
+     "num": 6,
+     "name": "Nayef Aguerd",
+     "foil": false,
+     "app_number": 220
+    },
+    {
+     "num": 7,
+     "name": "Romain Saïss",
+     "foil": false,
+     "app_number": 221
+    },
+    {
+     "num": 8,
+     "name": "Jawad El Yamiq",
+     "foil": false,
+     "app_number": 222
+    },
+    {
+     "num": 9,
+     "name": "Adam Masina",
+     "foil": false,
+     "app_number": 223
+    },
+    {
+     "num": 10,
+     "name": "Sofyan Amrabat",
+     "foil": false,
+     "app_number": 224
+    },
+    {
+     "num": 11,
+     "name": "Azzedine Ounahi",
+     "foil": false,
+     "app_number": 225
+    },
+    {
+     "num": 12,
+     "name": "Eliesse Ben Seghir",
+     "foil": false,
+     "app_number": 226
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 227
+    },
+    {
+     "num": 14,
+     "name": "Bilal El Khannouss",
+     "foil": false,
+     "app_number": 228
+    },
+    {
+     "num": 15,
+     "name": "Ismael Saibari",
+     "foil": false,
+     "app_number": 229
+    },
+    {
+     "num": 16,
+     "name": "Youssef En-Nesyri",
+     "foil": false,
+     "app_number": 230
+    },
+    {
+     "num": 17,
+     "name": "Abde Ezzalzouli",
+     "foil": false,
+     "app_number": 231
+    },
+    {
+     "num": 18,
+     "name": "Soufiane Rahimi",
+     "foil": false,
+     "app_number": 232
+    },
+    {
+     "num": 19,
+     "name": "Brahim Diaz",
+     "foil": false,
+     "app_number": 233
+    },
+    {
+     "num": 20,
+     "name": "Ayoub El Kaabi",
+     "foil": false,
+     "app_number": 234
+    }
+   ]
+  },
+  {
+   "code": "HAI",
+   "name": "Haiti",
+   "name_en": "Haiti",
+   "order": 11,
+   "group": "C",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 235
+    },
+    {
+     "num": 2,
+     "name": "Johny Placide",
+     "foil": false,
+     "app_number": 236
+    },
+    {
+     "num": 3,
+     "name": "Carlens Arcus",
+     "foil": false,
+     "app_number": 237
+    },
+    {
+     "num": 4,
+     "name": "Martin Expérience",
+     "foil": false,
+     "app_number": 238
+    },
+    {
+     "num": 5,
+     "name": "Jean-Kevin Duverne",
+     "foil": false,
+     "app_number": 239
+    },
+    {
+     "num": 6,
+     "name": "Ricardo Adé",
+     "foil": false,
+     "app_number": 240
+    },
+    {
+     "num": 7,
+     "name": "Duke Lacroix",
+     "foil": false,
+     "app_number": 241
+    },
+    {
+     "num": 8,
+     "name": "Garven Metusala",
+     "foil": false,
+     "app_number": 242
+    },
+    {
+     "num": 9,
+     "name": "Hannes Delcroix",
+     "foil": false,
+     "app_number": 243
+    },
+    {
+     "num": 10,
+     "name": "Leverton Pierre",
+     "foil": false,
+     "app_number": 244
+    },
+    {
+     "num": 11,
+     "name": "Danley Jean Jacques",
+     "foil": false,
+     "app_number": 245
+    },
+    {
+     "num": 12,
+     "name": "Jean-Ricner Bellegarde",
+     "foil": false,
+     "app_number": 246
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 247
+    },
+    {
+     "num": 14,
+     "name": "Christopher Attys",
+     "foil": false,
+     "app_number": 248
+    },
+    {
+     "num": 15,
+     "name": "Derrick Etienne Jr",
+     "foil": false,
+     "app_number": 249
+    },
+    {
+     "num": 16,
+     "name": "Josue Casimir",
+     "foil": false,
+     "app_number": 250
+    },
+    {
+     "num": 17,
+     "name": "Ruben Providence",
+     "foil": false,
+     "app_number": 251
+    },
+    {
+     "num": 18,
+     "name": "Duckens Nazon",
+     "foil": false,
+     "app_number": 252
+    },
+    {
+     "num": 19,
+     "name": "Louicius Deedson",
+     "foil": false,
+     "app_number": 253
+    },
+    {
+     "num": 20,
+     "name": "Frantzdy Pierrot",
+     "foil": false,
+     "app_number": 254
+    }
+   ]
+  },
+  {
+   "code": "SCO",
+   "name": "Schottland",
+   "name_en": "Scotland",
+   "order": 12,
+   "group": "C",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 255
+    },
+    {
+     "num": 2,
+     "name": "Angus Gunn",
+     "foil": false,
+     "app_number": 256
+    },
+    {
+     "num": 3,
+     "name": "Jack Hendry",
+     "foil": false,
+     "app_number": 257
+    },
+    {
+     "num": 4,
+     "name": "Kieran Tierney",
+     "foil": false,
+     "app_number": 258
+    },
+    {
+     "num": 5,
+     "name": "Aaron Hickey",
+     "foil": false,
+     "app_number": 259
+    },
+    {
+     "num": 6,
+     "name": "Andrew Robertson",
+     "foil": false,
+     "app_number": 260
+    },
+    {
+     "num": 7,
+     "name": "Scott McKenna",
+     "foil": false,
+     "app_number": 261
+    },
+    {
+     "num": 8,
+     "name": "John Souttar",
+     "foil": false,
+     "app_number": 262
+    },
+    {
+     "num": 9,
+     "name": "Anthony Ralston",
+     "foil": false,
+     "app_number": 263
+    },
+    {
+     "num": 10,
+     "name": "Grant Hanley",
+     "foil": false,
+     "app_number": 264
+    },
+    {
+     "num": 11,
+     "name": "Scott McTominay",
+     "foil": false,
+     "app_number": 265
+    },
+    {
+     "num": 12,
+     "name": "Billy Gilmour",
+     "foil": false,
+     "app_number": 266
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 267
+    },
+    {
+     "num": 14,
+     "name": "Lewis Ferguson",
+     "foil": false,
+     "app_number": 268
+    },
+    {
+     "num": 15,
+     "name": "Ryan Christie",
+     "foil": false,
+     "app_number": 269
+    },
+    {
+     "num": 16,
+     "name": "Kenny McLean",
+     "foil": false,
+     "app_number": 270
+    },
+    {
+     "num": 17,
+     "name": "John McGinn",
+     "foil": false,
+     "app_number": 271
+    },
+    {
+     "num": 18,
+     "name": "Lyndon Dykes",
+     "foil": false,
+     "app_number": 272
+    },
+    {
+     "num": 19,
+     "name": "Che Adams",
+     "foil": false,
+     "app_number": 273
+    },
+    {
+     "num": 20,
+     "name": "Ben Gannon-Doak",
+     "foil": false,
+     "app_number": 274
+    }
+   ]
+  },
+  {
+   "code": "USA",
+   "name": "USA",
+   "name_en": "USA",
+   "order": 13,
+   "group": "D",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 275
+    },
+    {
+     "num": 2,
+     "name": "Matt Freese",
+     "foil": false,
+     "app_number": 276
+    },
+    {
+     "num": 3,
+     "name": "Chris Richards",
+     "foil": false,
+     "app_number": 277
+    },
+    {
+     "num": 4,
+     "name": "Tim Ream",
+     "foil": false,
+     "app_number": 278
+    },
+    {
+     "num": 5,
+     "name": "Mark McKenzie",
+     "foil": false,
+     "app_number": 279
+    },
+    {
+     "num": 6,
+     "name": "Alex Freeman",
+     "foil": false,
+     "app_number": 280
+    },
+    {
+     "num": 7,
+     "name": "Antonee Robinson",
+     "foil": false,
+     "app_number": 281
+    },
+    {
+     "num": 8,
+     "name": "Tyler Adams",
+     "foil": false,
+     "app_number": 282
+    },
+    {
+     "num": 9,
+     "name": "Tanner Tessmann",
+     "foil": false,
+     "app_number": 283
+    },
+    {
+     "num": 10,
+     "name": "Weston McKenny",
+     "foil": false,
+     "app_number": 284
+    },
+    {
+     "num": 11,
+     "name": "Christian Roldan",
+     "foil": false,
+     "app_number": 285
+    },
+    {
+     "num": 12,
+     "name": "Timothy Weah",
+     "foil": false,
+     "app_number": 286
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 287
+    },
+    {
+     "num": 14,
+     "name": "Diego Luna",
+     "foil": false,
+     "app_number": 288
+    },
+    {
+     "num": 15,
+     "name": "Malik Tillman",
+     "foil": false,
+     "app_number": 289
+    },
+    {
+     "num": 16,
+     "name": "Christian Pulisic",
+     "foil": false,
+     "app_number": 290
+    },
+    {
+     "num": 17,
+     "name": "Brenden Aaronson",
+     "foil": false,
+     "app_number": 291
+    },
+    {
+     "num": 18,
+     "name": "Ricardo Pepi",
+     "foil": false,
+     "app_number": 292
+    },
+    {
+     "num": 19,
+     "name": "Haji Wright",
+     "foil": false,
+     "app_number": 293
+    },
+    {
+     "num": 20,
+     "name": "Folarin Balogun",
+     "foil": false,
+     "app_number": 294
+    }
+   ]
+  },
+  {
+   "code": "PAR",
+   "name": "Paraguay",
+   "name_en": "Paraguay",
+   "order": 14,
+   "group": "D",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 295
+    },
+    {
+     "num": 2,
+     "name": "Roberto Fernandez",
+     "foil": false,
+     "app_number": 296
+    },
+    {
+     "num": 3,
+     "name": "Orlando Gill",
+     "foil": false,
+     "app_number": 297
+    },
+    {
+     "num": 4,
+     "name": "Gustavo Gomez",
+     "foil": false,
+     "app_number": 298
+    },
+    {
+     "num": 5,
+     "name": "Fabián Balbuena",
+     "foil": false,
+     "app_number": 299
+    },
+    {
+     "num": 6,
+     "name": "Juan José Cáceres",
+     "foil": false,
+     "app_number": 300
+    },
+    {
+     "num": 7,
+     "name": "Omar Alderete",
+     "foil": false,
+     "app_number": 301
+    },
+    {
+     "num": 8,
+     "name": "Junior Alonso",
+     "foil": false,
+     "app_number": 302
+    },
+    {
+     "num": 9,
+     "name": "Mathías Villasanti",
+     "foil": false,
+     "app_number": 303
+    },
+    {
+     "num": 10,
+     "name": "Diego Gomez",
+     "foil": false,
+     "app_number": 304
+    },
+    {
+     "num": 11,
+     "name": "Damián Bobadilla",
+     "foil": false,
+     "app_number": 305
+    },
+    {
+     "num": 12,
+     "name": "Andres Cubas",
+     "foil": false,
+     "app_number": 306
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 307
+    },
+    {
+     "num": 14,
+     "name": "Matias Galarza Fonda",
+     "foil": false,
+     "app_number": 308
+    },
+    {
+     "num": 15,
+     "name": "Julio Enciso",
+     "foil": false,
+     "app_number": 309
+    },
+    {
+     "num": 16,
+     "name": "Alejandro Romero Gamarra",
+     "foil": false,
+     "app_number": 310
+    },
+    {
+     "num": 17,
+     "name": "Miguel Almirón",
+     "foil": false,
+     "app_number": 311
+    },
+    {
+     "num": 18,
+     "name": "Ramon Sosa",
+     "foil": false,
+     "app_number": 312
+    },
+    {
+     "num": 19,
+     "name": "Angel Romero",
+     "foil": false,
+     "app_number": 313
+    },
+    {
+     "num": 20,
+     "name": "Antonio Sanabria",
+     "foil": false,
+     "app_number": 314
+    }
+   ]
+  },
+  {
+   "code": "AUS",
+   "name": "Australien",
+   "name_en": "Australia",
+   "order": 15,
+   "group": "D",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 315
+    },
+    {
+     "num": 2,
+     "name": "Mathew Ryan",
+     "foil": false,
+     "app_number": 316
+    },
+    {
+     "num": 3,
+     "name": "Joe Gauci",
+     "foil": false,
+     "app_number": 317
+    },
+    {
+     "num": 4,
+     "name": "Harry Souttar",
+     "foil": false,
+     "app_number": 318
+    },
+    {
+     "num": 5,
+     "name": "Alessandro Circati",
+     "foil": false,
+     "app_number": 319
+    },
+    {
+     "num": 6,
+     "name": "Jordan Bos",
+     "foil": false,
+     "app_number": 320
+    },
+    {
+     "num": 7,
+     "name": "Aziz Behich",
+     "foil": false,
+     "app_number": 321
+    },
+    {
+     "num": 8,
+     "name": "Cameron Burgess",
+     "foil": false,
+     "app_number": 322
+    },
+    {
+     "num": 9,
+     "name": "Lewis Miller",
+     "foil": false,
+     "app_number": 323
+    },
+    {
+     "num": 10,
+     "name": "Milos Degenek",
+     "foil": false,
+     "app_number": 324
+    },
+    {
+     "num": 11,
+     "name": "Jackson Irvine",
+     "foil": false,
+     "app_number": 325
+    },
+    {
+     "num": 12,
+     "name": "Riley McGree",
+     "foil": false,
+     "app_number": 326
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 327
+    },
+    {
+     "num": 14,
+     "name": "Aiden O'Neill",
+     "foil": false,
+     "app_number": 328
+    },
+    {
+     "num": 15,
+     "name": "Connor Metcalfe",
+     "foil": false,
+     "app_number": 329
+    },
+    {
+     "num": 16,
+     "name": "Patrick Yazbek",
+     "foil": false,
+     "app_number": 330
+    },
+    {
+     "num": 17,
+     "name": "Craig Goodwin",
+     "foil": false,
+     "app_number": 331
+    },
+    {
+     "num": 18,
+     "name": "Kusini Yengi",
+     "foil": false,
+     "app_number": 332
+    },
+    {
+     "num": 19,
+     "name": "Nestory Irankunda",
+     "foil": false,
+     "app_number": 333
+    },
+    {
+     "num": 20,
+     "name": "Mohamed Touré",
+     "foil": false,
+     "app_number": 334
+    }
+   ]
+  },
+  {
+   "code": "TUR",
+   "name": "Türkei",
+   "name_en": "Türkiye",
+   "order": 16,
+   "group": "D",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 335
+    },
+    {
+     "num": 2,
+     "name": "Ugurcan Cakir",
+     "foil": false,
+     "app_number": 336
+    },
+    {
+     "num": 3,
+     "name": "Mert Muldur",
+     "foil": false,
+     "app_number": 337
+    },
+    {
+     "num": 4,
+     "name": "Zeki Celik",
+     "foil": false,
+     "app_number": 338
+    },
+    {
+     "num": 5,
+     "name": "Abdulkerim Bardakci",
+     "foil": false,
+     "app_number": 339
+    },
+    {
+     "num": 6,
+     "name": "Caglar Soyuncu",
+     "foil": false,
+     "app_number": 340
+    },
+    {
+     "num": 7,
+     "name": "Merih Demiral",
+     "foil": false,
+     "app_number": 341
+    },
+    {
+     "num": 8,
+     "name": "Ferdi Kadioglu",
+     "foil": false,
+     "app_number": 342
+    },
+    {
+     "num": 9,
+     "name": "Kaan Ayhan",
+     "foil": false,
+     "app_number": 343
+    },
+    {
+     "num": 10,
+     "name": "Ismail Yuksek",
+     "foil": false,
+     "app_number": 344
+    },
+    {
+     "num": 11,
+     "name": "Hakan Calhanoglu",
+     "foil": false,
+     "app_number": 345
+    },
+    {
+     "num": 12,
+     "name": "Orkun Kokcu",
+     "foil": false,
+     "app_number": 346
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 347
+    },
+    {
+     "num": 14,
+     "name": "Arda Guler",
+     "foil": false,
+     "app_number": 348
+    },
+    {
+     "num": 15,
+     "name": "Irfan Can Kahveci",
+     "foil": false,
+     "app_number": 349
+    },
+    {
+     "num": 16,
+     "name": "Yunus Akgun",
+     "foil": false,
+     "app_number": 350
+    },
+    {
+     "num": 17,
+     "name": "Can Uzun",
+     "foil": false,
+     "app_number": 351
+    },
+    {
+     "num": 18,
+     "name": "Baris Alper Yilmaz",
+     "foil": false,
+     "app_number": 352
+    },
+    {
+     "num": 19,
+     "name": "Kerem Akturkoglu",
+     "foil": false,
+     "app_number": 353
+    },
+    {
+     "num": 20,
+     "name": "Kenan Yildiz",
+     "foil": false,
+     "app_number": 354
+    }
+   ]
+  },
+  {
+   "code": "GER",
+   "name": "Deutschland",
+   "name_en": "Germany",
+   "order": 17,
+   "group": "E",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 355
+    },
+    {
+     "num": 2,
+     "name": "Marc-André ter Stegen",
+     "foil": false,
+     "app_number": 356
+    },
+    {
+     "num": 3,
+     "name": "Jonathan Tah",
+     "foil": false,
+     "app_number": 357
+    },
+    {
+     "num": 4,
+     "name": "David Raum",
+     "foil": false,
+     "app_number": 358
+    },
+    {
+     "num": 5,
+     "name": "Nico Schlotterbeck",
+     "foil": false,
+     "app_number": 359
+    },
+    {
+     "num": 6,
+     "name": "Antonio Rüdiger",
+     "foil": false,
+     "app_number": 360
+    },
+    {
+     "num": 7,
+     "name": "Waldemar Anton",
+     "foil": false,
+     "app_number": 361
+    },
+    {
+     "num": 8,
+     "name": "Ridle Baku",
+     "foil": false,
+     "app_number": 362
+    },
+    {
+     "num": 9,
+     "name": "Maximilian Mittelstadt",
+     "foil": false,
+     "app_number": 363
+    },
+    {
+     "num": 10,
+     "name": "Joshua Kimmich",
+     "foil": false,
+     "app_number": 364
+    },
+    {
+     "num": 11,
+     "name": "Florian Wirtz",
+     "foil": false,
+     "app_number": 365
+    },
+    {
+     "num": 12,
+     "name": "Felix Nmecha",
+     "foil": false,
+     "app_number": 366
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 367
+    },
+    {
+     "num": 14,
+     "name": "Leon Goretzka",
+     "foil": false,
+     "app_number": 368
+    },
+    {
+     "num": 15,
+     "name": "Jamal Musiala",
+     "foil": false,
+     "app_number": 369
+    },
+    {
+     "num": 16,
+     "name": "Serge Gnabry",
+     "foil": false,
+     "app_number": 370
+    },
+    {
+     "num": 17,
+     "name": "Kai Havertz",
+     "foil": false,
+     "app_number": 371
+    },
+    {
+     "num": 18,
+     "name": "Leroy Sane",
+     "foil": false,
+     "app_number": 372
+    },
+    {
+     "num": 19,
+     "name": "Karim Adeyemi",
+     "foil": false,
+     "app_number": 373
+    },
+    {
+     "num": 20,
+     "name": "Nick Woltemade",
+     "foil": false,
+     "app_number": 374
+    }
+   ]
+  },
+  {
+   "code": "CUW",
+   "name": "Curaçao",
+   "name_en": "Curaçao",
+   "order": 18,
+   "group": "E",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 375
+    },
+    {
+     "num": 2,
+     "name": "Eloy Room",
+     "foil": false,
+     "app_number": 376
+    },
+    {
+     "num": 3,
+     "name": "Armando Obispo",
+     "foil": false,
+     "app_number": 377
+    },
+    {
+     "num": 4,
+     "name": "Sherel Floranus",
+     "foil": false,
+     "app_number": 378
+    },
+    {
+     "num": 5,
+     "name": "Jurien Gaari",
+     "foil": false,
+     "app_number": 379
+    },
+    {
+     "num": 6,
+     "name": "Joshua Brenet",
+     "foil": false,
+     "app_number": 380
+    },
+    {
+     "num": 7,
+     "name": "Roshon Van Eijma",
+     "foil": false,
+     "app_number": 381
+    },
+    {
+     "num": 8,
+     "name": "Shurandy Sambo",
+     "foil": false,
+     "app_number": 382
+    },
+    {
+     "num": 9,
+     "name": "Livano Comenencia",
+     "foil": false,
+     "app_number": 383
+    },
+    {
+     "num": 10,
+     "name": "Godfried Roemeratoe",
+     "foil": false,
+     "app_number": 384
+    },
+    {
+     "num": 11,
+     "name": "Juninho Bacuna",
+     "foil": false,
+     "app_number": 385
+    },
+    {
+     "num": 12,
+     "name": "Leandro Bacuna",
+     "foil": false,
+     "app_number": 386
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 387
+    },
+    {
+     "num": 14,
+     "name": "Tahith Chong",
+     "foil": false,
+     "app_number": 388
+    },
+    {
+     "num": 15,
+     "name": "Kenji Gorre",
+     "foil": false,
+     "app_number": 389
+    },
+    {
+     "num": 16,
+     "name": "Jearl Margaritha",
+     "foil": false,
+     "app_number": 390
+    },
+    {
+     "num": 17,
+     "name": "Jurgen Locadia",
+     "foil": false,
+     "app_number": 391
+    },
+    {
+     "num": 18,
+     "name": "Jeremy Antonisse",
+     "foil": false,
+     "app_number": 392
+    },
+    {
+     "num": 19,
+     "name": "Gervane Kastaneer",
+     "foil": false,
+     "app_number": 393
+    },
+    {
+     "num": 20,
+     "name": "Sontje Hansen",
+     "foil": false,
+     "app_number": 394
+    }
+   ]
+  },
+  {
+   "code": "CIV",
+   "name": "Elfenbeinküste",
+   "name_en": "Ivory Coast",
+   "order": 19,
+   "group": "E",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 395
+    },
+    {
+     "num": 2,
+     "name": "Yahia Fofana",
+     "foil": false,
+     "app_number": 396
+    },
+    {
+     "num": 3,
+     "name": "Ghislain Konan",
+     "foil": false,
+     "app_number": 397
+    },
+    {
+     "num": 4,
+     "name": "Wilfried Singo",
+     "foil": false,
+     "app_number": 398
+    },
+    {
+     "num": 5,
+     "name": "Odilon Kossounou",
+     "foil": false,
+     "app_number": 399
+    },
+    {
+     "num": 6,
+     "name": "Evan Ndicka",
+     "foil": false,
+     "app_number": 400
+    },
+    {
+     "num": 7,
+     "name": "Willy Boly",
+     "foil": false,
+     "app_number": 401
+    },
+    {
+     "num": 8,
+     "name": "Emmanuel Agbadou",
+     "foil": false,
+     "app_number": 402
+    },
+    {
+     "num": 9,
+     "name": "Ousmane Diomande",
+     "foil": false,
+     "app_number": 403
+    },
+    {
+     "num": 10,
+     "name": "Franck Kessie",
+     "foil": false,
+     "app_number": 404
+    },
+    {
+     "num": 11,
+     "name": "Seko Fofana",
+     "foil": false,
+     "app_number": 405
+    },
+    {
+     "num": 12,
+     "name": "Ibrahim Sangare",
+     "foil": false,
+     "app_number": 406
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 407
+    },
+    {
+     "num": 14,
+     "name": "Jean-Philippe Gbamin",
+     "foil": false,
+     "app_number": 408
+    },
+    {
+     "num": 15,
+     "name": "Amad Diallo",
+     "foil": false,
+     "app_number": 409
+    },
+    {
+     "num": 16,
+     "name": "Sébastien Haller",
+     "foil": false,
+     "app_number": 410
+    },
+    {
+     "num": 17,
+     "name": "Simon Adingra",
+     "foil": false,
+     "app_number": 411
+    },
+    {
+     "num": 18,
+     "name": "Yan Diomande",
+     "foil": false,
+     "app_number": 412
+    },
+    {
+     "num": 19,
+     "name": "Evann Guessand",
+     "foil": false,
+     "app_number": 413
+    },
+    {
+     "num": 20,
+     "name": "Oumar Diakite",
+     "foil": false,
+     "app_number": 414
+    }
+   ]
+  },
+  {
+   "code": "ECU",
+   "name": "Ecuador",
+   "name_en": "Ecuador",
+   "order": 20,
+   "group": "E",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 415
+    },
+    {
+     "num": 2,
+     "name": "Hernán Galíndez",
+     "foil": false,
+     "app_number": 416
+    },
+    {
+     "num": 3,
+     "name": "Gonzalo Valle",
+     "foil": false,
+     "app_number": 417
+    },
+    {
+     "num": 4,
+     "name": "Piero Hincapié",
+     "foil": false,
+     "app_number": 418
+    },
+    {
+     "num": 5,
+     "name": "Pervis Estupiñán",
+     "foil": false,
+     "app_number": 419
+    },
+    {
+     "num": 6,
+     "name": "Willian Pacho",
+     "foil": false,
+     "app_number": 420
+    },
+    {
+     "num": 7,
+     "name": "Ángelo Preciado",
+     "foil": false,
+     "app_number": 421
+    },
+    {
+     "num": 8,
+     "name": "Joel Ordóñez",
+     "foil": false,
+     "app_number": 422
+    },
+    {
+     "num": 9,
+     "name": "Moises Caicedo",
+     "foil": false,
+     "app_number": 423
+    },
+    {
+     "num": 10,
+     "name": "Alan Franco",
+     "foil": false,
+     "app_number": 424
+    },
+    {
+     "num": 11,
+     "name": "Kendry Paez",
+     "foil": false,
+     "app_number": 425
+    },
+    {
+     "num": 12,
+     "name": "Pedro Vite",
+     "foil": false,
+     "app_number": 426
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 427
+    },
+    {
+     "num": 14,
+     "name": "John Yeboah",
+     "foil": false,
+     "app_number": 428
+    },
+    {
+     "num": 15,
+     "name": "Leonardo Campana",
+     "foil": false,
+     "app_number": 429
+    },
+    {
+     "num": 16,
+     "name": "Gonzalo Plata",
+     "foil": false,
+     "app_number": 430
+    },
+    {
+     "num": 17,
+     "name": "Nilson Angulo",
+     "foil": false,
+     "app_number": 431
+    },
+    {
+     "num": 18,
+     "name": "Alan Minda",
+     "foil": false,
+     "app_number": 432
+    },
+    {
+     "num": 19,
+     "name": "Kevin Rodriguez",
+     "foil": false,
+     "app_number": 433
+    },
+    {
+     "num": 20,
+     "name": "Enner Valencia",
+     "foil": false,
+     "app_number": 434
+    }
+   ]
+  },
+  {
+   "code": "NED",
+   "name": "Niederlande",
+   "name_en": "Netherlands",
+   "order": 21,
+   "group": "F",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 435
+    },
+    {
+     "num": 2,
+     "name": "Bart Verbruggen",
+     "foil": false,
+     "app_number": 436
+    },
+    {
+     "num": 3,
+     "name": "Virgil van Dijk",
+     "foil": false,
+     "app_number": 437
+    },
+    {
+     "num": 4,
+     "name": "Micky van de Ven",
+     "foil": false,
+     "app_number": 438
+    },
+    {
+     "num": 5,
+     "name": "Jurrien Timber",
+     "foil": false,
+     "app_number": 439
+    },
+    {
+     "num": 6,
+     "name": "Denzel Dumfries",
+     "foil": false,
+     "app_number": 440
+    },
+    {
+     "num": 7,
+     "name": "Nathan Aké",
+     "foil": false,
+     "app_number": 441
+    },
+    {
+     "num": 8,
+     "name": "Jeremie Frimpong",
+     "foil": false,
+     "app_number": 442
+    },
+    {
+     "num": 9,
+     "name": "Jan Paul van Hecke",
+     "foil": false,
+     "app_number": 443
+    },
+    {
+     "num": 10,
+     "name": "Tijjani Reijnders",
+     "foil": false,
+     "app_number": 444
+    },
+    {
+     "num": 11,
+     "name": "Ryan Gravenberch",
+     "foil": false,
+     "app_number": 445
+    },
+    {
+     "num": 12,
+     "name": "Teun Koopmeiners",
+     "foil": false,
+     "app_number": 446
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 447
+    },
+    {
+     "num": 14,
+     "name": "Frenkie de Jong",
+     "foil": false,
+     "app_number": 448
+    },
+    {
+     "num": 15,
+     "name": "Xavi Simons",
+     "foil": false,
+     "app_number": 449
+    },
+    {
+     "num": 16,
+     "name": "Justin Kluivert",
+     "foil": false,
+     "app_number": 450
+    },
+    {
+     "num": 17,
+     "name": "Memphis Depay",
+     "foil": false,
+     "app_number": 451
+    },
+    {
+     "num": 18,
+     "name": "Donyell Malen",
+     "foil": false,
+     "app_number": 452
+    },
+    {
+     "num": 19,
+     "name": "Wout Weghorst",
+     "foil": false,
+     "app_number": 453
+    },
+    {
+     "num": 20,
+     "name": "Cody Gakpo",
+     "foil": false,
+     "app_number": 454
+    }
+   ]
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "name_en": "Japan",
+   "order": 22,
+   "group": "F",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 455
+    },
+    {
+     "num": 2,
+     "name": "Zion Suzuki",
+     "foil": false,
+     "app_number": 456
+    },
+    {
+     "num": 3,
+     "name": "Henry Heroki Mochizuki",
+     "foil": false,
+     "app_number": 457
+    },
+    {
+     "num": 4,
+     "name": "Ayumu Seko",
+     "foil": false,
+     "app_number": 458
+    },
+    {
+     "num": 5,
+     "name": "Junnosuke Suzuki",
+     "foil": false,
+     "app_number": 459
+    },
+    {
+     "num": 6,
+     "name": "Shogo Taniguchi",
+     "foil": false,
+     "app_number": 460
+    },
+    {
+     "num": 7,
+     "name": "Tsuyoshi Watanabe",
+     "foil": false,
+     "app_number": 461
+    },
+    {
+     "num": 8,
+     "name": "Kaishu Sano",
+     "foil": false,
+     "app_number": 462
+    },
+    {
+     "num": 9,
+     "name": "Yuki Soma",
+     "foil": false,
+     "app_number": 463
+    },
+    {
+     "num": 10,
+     "name": "Ao Tanaka",
+     "foil": false,
+     "app_number": 464
+    },
+    {
+     "num": 11,
+     "name": "Daichi Kamada",
+     "foil": false,
+     "app_number": 465
+    },
+    {
+     "num": 12,
+     "name": "Takefusa Kubo",
+     "foil": false,
+     "app_number": 466
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 467
+    },
+    {
+     "num": 14,
+     "name": "Ritsu Doan",
+     "foil": false,
+     "app_number": 468
+    },
+    {
+     "num": 15,
+     "name": "Keito Nakamura",
+     "foil": false,
+     "app_number": 469
+    },
+    {
+     "num": 16,
+     "name": "Takumi Minamino",
+     "foil": false,
+     "app_number": 470
+    },
+    {
+     "num": 17,
+     "name": "Shuto Machino",
+     "foil": false,
+     "app_number": 471
+    },
+    {
+     "num": 18,
+     "name": "Junya Ito",
+     "foil": false,
+     "app_number": 472
+    },
+    {
+     "num": 19,
+     "name": "Koki Ogawa",
+     "foil": false,
+     "app_number": 473
+    },
+    {
+     "num": 20,
+     "name": "Ayase Ueda",
+     "foil": false,
+     "app_number": 474
+    }
+   ]
+  },
+  {
+   "code": "SWE",
+   "name": "Schweden",
+   "name_en": "Sweden",
+   "order": 23,
+   "group": "F",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 475
+    },
+    {
+     "num": 2,
+     "name": "Victor Johansson",
+     "foil": false,
+     "app_number": 476
+    },
+    {
+     "num": 3,
+     "name": "Isak Hien",
+     "foil": false,
+     "app_number": 477
+    },
+    {
+     "num": 4,
+     "name": "Gabriel Gudmundsson",
+     "foil": false,
+     "app_number": 478
+    },
+    {
+     "num": 5,
+     "name": "Emil Holm",
+     "foil": false,
+     "app_number": 479
+    },
+    {
+     "num": 6,
+     "name": "Victor Nilsson Lindelöf",
+     "foil": false,
+     "app_number": 480
+    },
+    {
+     "num": 7,
+     "name": "Gustaf Lagerbielke",
+     "foil": false,
+     "app_number": 481
+    },
+    {
+     "num": 8,
+     "name": "Lucas Bergvall",
+     "foil": false,
+     "app_number": 482
+    },
+    {
+     "num": 9,
+     "name": "Hugo Larsson",
+     "foil": false,
+     "app_number": 483
+    },
+    {
+     "num": 10,
+     "name": "Jesper Karlström",
+     "foil": false,
+     "app_number": 484
+    },
+    {
+     "num": 11,
+     "name": "Yasin Ayari",
+     "foil": false,
+     "app_number": 485
+    },
+    {
+     "num": 12,
+     "name": "Mattias Svanberg",
+     "foil": false,
+     "app_number": 486
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 487
+    },
+    {
+     "num": 14,
+     "name": "Daniel Svensson",
+     "foil": false,
+     "app_number": 488
+    },
+    {
+     "num": 15,
+     "name": "Ken Sema",
+     "foil": false,
+     "app_number": 489
+    },
+    {
+     "num": 16,
+     "name": "Roony Bardghji",
+     "foil": false,
+     "app_number": 490
+    },
+    {
+     "num": 17,
+     "name": "Dejan Kulusevski",
+     "foil": false,
+     "app_number": 491
+    },
+    {
+     "num": 18,
+     "name": "Anthony Elanga",
+     "foil": false,
+     "app_number": 492
+    },
+    {
+     "num": 19,
+     "name": "Alexander Isak",
+     "foil": false,
+     "app_number": 493
+    },
+    {
+     "num": 20,
+     "name": "Viktor Gyökeres",
+     "foil": false,
+     "app_number": 494
+    }
+   ]
+  },
+  {
+   "code": "TUN",
+   "name": "Tunesien",
+   "name_en": "Tunisia",
+   "order": 24,
+   "group": "F",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 495
+    },
+    {
+     "num": 2,
+     "name": "Bechir Ben Said",
+     "foil": false,
+     "app_number": 496
+    },
+    {
+     "num": 3,
+     "name": "Aymen Dahmen",
+     "foil": false,
+     "app_number": 497
+    },
+    {
+     "num": 4,
+     "name": "Yan Valery",
+     "foil": false,
+     "app_number": 498
+    },
+    {
+     "num": 5,
+     "name": "Montassar Talbi",
+     "foil": false,
+     "app_number": 499
+    },
+    {
+     "num": 6,
+     "name": "Yassine Meriah",
+     "foil": false,
+     "app_number": 500
+    },
+    {
+     "num": 7,
+     "name": "Ali Abdi",
+     "foil": false,
+     "app_number": 501
+    },
+    {
+     "num": 8,
+     "name": "Dylan Bronn",
+     "foil": false,
+     "app_number": 502
+    },
+    {
+     "num": 9,
+     "name": "Ellyes Skhiri",
+     "foil": false,
+     "app_number": 503
+    },
+    {
+     "num": 10,
+     "name": "Aissa Laidouni",
+     "foil": false,
+     "app_number": 504
+    },
+    {
+     "num": 11,
+     "name": "Ferjani Sassi",
+     "foil": false,
+     "app_number": 505
+    },
+    {
+     "num": 12,
+     "name": "Mohamed Ali Ben Romdhane",
+     "foil": false,
+     "app_number": 506
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 507
+    },
+    {
+     "num": 14,
+     "name": "Hannibal Mejbri",
+     "foil": false,
+     "app_number": 508
+    },
+    {
+     "num": 15,
+     "name": "Elias Achouri",
+     "foil": false,
+     "app_number": 509
+    },
+    {
+     "num": 16,
+     "name": "Elias Saad",
+     "foil": false,
+     "app_number": 510
+    },
+    {
+     "num": 17,
+     "name": "Hazem Mastouri",
+     "foil": false,
+     "app_number": 511
+    },
+    {
+     "num": 18,
+     "name": "Ismael Gharbi",
+     "foil": false,
+     "app_number": 512
+    },
+    {
+     "num": 19,
+     "name": "Sayfallah Ltaief",
+     "foil": false,
+     "app_number": 513
+    },
+    {
+     "num": 20,
+     "name": "Naim Sliti",
+     "foil": false,
+     "app_number": 514
+    }
+   ]
+  },
+  {
+   "code": "BEL",
+   "name": "Belgien",
+   "name_en": "Belgium",
+   "order": 25,
+   "group": "G",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 515
+    },
+    {
+     "num": 2,
+     "name": "Thibaut Courtois",
+     "foil": false,
+     "app_number": 516
+    },
+    {
+     "num": 3,
+     "name": "Arthur Theate",
+     "foil": false,
+     "app_number": 517
+    },
+    {
+     "num": 4,
+     "name": "Timothy Castagne",
+     "foil": false,
+     "app_number": 518
+    },
+    {
+     "num": 5,
+     "name": "Zeno Debast",
+     "foil": false,
+     "app_number": 519
+    },
+    {
+     "num": 6,
+     "name": "Brandon Mechele",
+     "foil": false,
+     "app_number": 520
+    },
+    {
+     "num": 7,
+     "name": "Maxim De Cuyper",
+     "foil": false,
+     "app_number": 521
+    },
+    {
+     "num": 8,
+     "name": "Thomas Meunier",
+     "foil": false,
+     "app_number": 522
+    },
+    {
+     "num": 9,
+     "name": "Youri Tielemans",
+     "foil": false,
+     "app_number": 523
+    },
+    {
+     "num": 10,
+     "name": "Amadou Onana",
+     "foil": false,
+     "app_number": 524
+    },
+    {
+     "num": 11,
+     "name": "Nicolas Raskin",
+     "foil": false,
+     "app_number": 525
+    },
+    {
+     "num": 12,
+     "name": "Alexis Saelemaekers",
+     "foil": false,
+     "app_number": 526
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 527
+    },
+    {
+     "num": 14,
+     "name": "Hans Vanaken",
+     "foil": false,
+     "app_number": 528
+    },
+    {
+     "num": 15,
+     "name": "Kevin De Bruyne",
+     "foil": false,
+     "app_number": 529
+    },
+    {
+     "num": 16,
+     "name": "Jérémy Doku",
+     "foil": false,
+     "app_number": 530
+    },
+    {
+     "num": 17,
+     "name": "Charles De Ketelaere",
+     "foil": false,
+     "app_number": 531
+    },
+    {
+     "num": 18,
+     "name": "Leandro Trossard",
+     "foil": false,
+     "app_number": 532
+    },
+    {
+     "num": 19,
+     "name": "Loïs Openda",
+     "foil": false,
+     "app_number": 533
+    },
+    {
+     "num": 20,
+     "name": "Romelu Lukaku",
+     "foil": false,
+     "app_number": 534
+    }
+   ]
+  },
+  {
+   "code": "EGY",
+   "name": "Ägypten",
+   "name_en": "Egypt",
+   "order": 26,
+   "group": "G",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 535
+    },
+    {
+     "num": 2,
+     "name": "Mohamed El Shenawy",
+     "foil": false,
+     "app_number": 536
+    },
+    {
+     "num": 3,
+     "name": "Mohamed Hany",
+     "foil": false,
+     "app_number": 537
+    },
+    {
+     "num": 4,
+     "name": "Mohamed Hamdy",
+     "foil": false,
+     "app_number": 538
+    },
+    {
+     "num": 5,
+     "name": "Yasser Ibrahim",
+     "foil": false,
+     "app_number": 539
+    },
+    {
+     "num": 6,
+     "name": "Khaled Sobhi",
+     "foil": false,
+     "app_number": 540
+    },
+    {
+     "num": 7,
+     "name": "Ramy Rabia",
+     "foil": false,
+     "app_number": 541
+    },
+    {
+     "num": 8,
+     "name": "Hossam Abdelmaguid",
+     "foil": false,
+     "app_number": 542
+    },
+    {
+     "num": 9,
+     "name": "Ahmed Fatouh",
+     "foil": false,
+     "app_number": 543
+    },
+    {
+     "num": 10,
+     "name": "Marwan Attia",
+     "foil": false,
+     "app_number": 544
+    },
+    {
+     "num": 11,
+     "name": "Zizo",
+     "foil": false,
+     "app_number": 545
+    },
+    {
+     "num": 12,
+     "name": "Hamdy Fathy",
+     "foil": false,
+     "app_number": 546
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 547
+    },
+    {
+     "num": 14,
+     "name": "Mohamed Lasheen",
+     "foil": false,
+     "app_number": 548
+    },
+    {
+     "num": 15,
+     "name": "Emam Ashour",
+     "foil": false,
+     "app_number": 549
+    },
+    {
+     "num": 16,
+     "name": "Osama Faisal",
+     "foil": false,
+     "app_number": 550
+    },
+    {
+     "num": 17,
+     "name": "Mohamed Salah",
+     "foil": false,
+     "app_number": 551
+    },
+    {
+     "num": 18,
+     "name": "Mostafa Mohamed",
+     "foil": false,
+     "app_number": 552
+    },
+    {
+     "num": 19,
+     "name": "Trezeguet",
+     "foil": false,
+     "app_number": 553
+    },
+    {
+     "num": 20,
+     "name": "Omar Marmoush",
+     "foil": false,
+     "app_number": 554
+    }
+   ]
+  },
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "name_en": "Iran",
+   "order": 27,
+   "group": "G",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 555
+    },
+    {
+     "num": 2,
+     "name": "Alireza Beiranvand",
+     "foil": false,
+     "app_number": 556
+    },
+    {
+     "num": 3,
+     "name": "Morteza Pouraliganji",
+     "foil": false,
+     "app_number": 557
+    },
+    {
+     "num": 4,
+     "name": "Ehsan Hajsafi",
+     "foil": false,
+     "app_number": 558
+    },
+    {
+     "num": 5,
+     "name": "Milad Mohammadi",
+     "foil": false,
+     "app_number": 559
+    },
+    {
+     "num": 6,
+     "name": "Shojae Khalilzadeh",
+     "foil": false,
+     "app_number": 560
+    },
+    {
+     "num": 7,
+     "name": "Ramin Rezaeian",
+     "foil": false,
+     "app_number": 561
+    },
+    {
+     "num": 8,
+     "name": "Hossein Kanaani",
+     "foil": false,
+     "app_number": 562
+    },
+    {
+     "num": 9,
+     "name": "Sadegh Moharrami",
+     "foil": false,
+     "app_number": 563
+    },
+    {
+     "num": 10,
+     "name": "Saleh Hardani",
+     "foil": false,
+     "app_number": 564
+    },
+    {
+     "num": 11,
+     "name": "Saeed Ezatolahi",
+     "foil": false,
+     "app_number": 565
+    },
+    {
+     "num": 12,
+     "name": "Saman Ghoddos",
+     "foil": false,
+     "app_number": 566
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 567
+    },
+    {
+     "num": 14,
+     "name": "Omid Noorafkan",
+     "foil": false,
+     "app_number": 568
+    },
+    {
+     "num": 15,
+     "name": "Roozbeh Cheshmi",
+     "foil": false,
+     "app_number": 569
+    },
+    {
+     "num": 16,
+     "name": "Mohammad Mohebi",
+     "foil": false,
+     "app_number": 570
+    },
+    {
+     "num": 17,
+     "name": "Sardar Azmoun",
+     "foil": false,
+     "app_number": 571
+    },
+    {
+     "num": 18,
+     "name": "Mehdi Taremi",
+     "foil": false,
+     "app_number": 572
+    },
+    {
+     "num": 19,
+     "name": "Alireza Jahanbakhsh",
+     "foil": false,
+     "app_number": 573
+    },
+    {
+     "num": 20,
+     "name": "Ali Gholizadeh",
+     "foil": false,
+     "app_number": 574
+    }
+   ]
+  },
+  {
+   "code": "NZL",
+   "name": "Neuseeland",
+   "name_en": "New Zealand",
+   "order": 28,
+   "group": "G",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 575
+    },
+    {
+     "num": 2,
+     "name": "Max Crocombe",
+     "foil": false,
+     "app_number": 576
+    },
+    {
+     "num": 3,
+     "name": "Alex Paulsen",
+     "foil": false,
+     "app_number": 577
+    },
+    {
+     "num": 4,
+     "name": "Michael Boxall",
+     "foil": false,
+     "app_number": 578
+    },
+    {
+     "num": 5,
+     "name": "Liberato Cacace",
+     "foil": false,
+     "app_number": 579
+    },
+    {
+     "num": 6,
+     "name": "Tim Payne",
+     "foil": false,
+     "app_number": 580
+    },
+    {
+     "num": 7,
+     "name": "Tyler Bindon",
+     "foil": false,
+     "app_number": 581
+    },
+    {
+     "num": 8,
+     "name": "Francis de Vries",
+     "foil": false,
+     "app_number": 582
+    },
+    {
+     "num": 9,
+     "name": "Finn Surman",
+     "foil": false,
+     "app_number": 583
+    },
+    {
+     "num": 10,
+     "name": "Joe Bell",
+     "foil": false,
+     "app_number": 584
+    },
+    {
+     "num": 11,
+     "name": "Sarpreet Singh",
+     "foil": false,
+     "app_number": 585
+    },
+    {
+     "num": 12,
+     "name": "Ryan Thomas",
+     "foil": false,
+     "app_number": 586
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 587
+    },
+    {
+     "num": 14,
+     "name": "Matthew Garbett",
+     "foil": false,
+     "app_number": 588
+    },
+    {
+     "num": 15,
+     "name": "Marko Stamenić",
+     "foil": false,
+     "app_number": 589
+    },
+    {
+     "num": 16,
+     "name": "Ben Old",
+     "foil": false,
+     "app_number": 590
+    },
+    {
+     "num": 17,
+     "name": "Chris Wood",
+     "foil": false,
+     "app_number": 591
+    },
+    {
+     "num": 18,
+     "name": "Elijah Just",
+     "foil": false,
+     "app_number": 592
+    },
+    {
+     "num": 19,
+     "name": "Callum McCowatt",
+     "foil": false,
+     "app_number": 593
+    },
+    {
+     "num": 20,
+     "name": "Kosta Barbarouses",
+     "foil": false,
+     "app_number": 594
+    }
+   ]
+  },
+  {
+   "code": "ESP",
+   "name": "Spanien",
+   "name_en": "Spain",
+   "order": 29,
+   "group": "H",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 595
+    },
+    {
+     "num": 2,
+     "name": "Unai Simon",
+     "foil": false,
+     "app_number": 596
+    },
+    {
+     "num": 3,
+     "name": "Robin Le Normand",
+     "foil": false,
+     "app_number": 597
+    },
+    {
+     "num": 4,
+     "name": "Aymeric Laporte",
+     "foil": false,
+     "app_number": 598
+    },
+    {
+     "num": 5,
+     "name": "Dean Huijsen",
+     "foil": false,
+     "app_number": 599
+    },
+    {
+     "num": 6,
+     "name": "Pedro Porro",
+     "foil": false,
+     "app_number": 600
+    },
+    {
+     "num": 7,
+     "name": "Dani Carvajal",
+     "foil": false,
+     "app_number": 601
+    },
+    {
+     "num": 8,
+     "name": "Marc Cucurella",
+     "foil": false,
+     "app_number": 602
+    },
+    {
+     "num": 9,
+     "name": "Martín Zubimendi",
+     "foil": false,
+     "app_number": 603
+    },
+    {
+     "num": 10,
+     "name": "Rodri",
+     "foil": false,
+     "app_number": 604
+    },
+    {
+     "num": 11,
+     "name": "Pedri",
+     "foil": false,
+     "app_number": 605
+    },
+    {
+     "num": 12,
+     "name": "Fabian Ruiz",
+     "foil": false,
+     "app_number": 606
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 607
+    },
+    {
+     "num": 14,
+     "name": "Mikel Merino",
+     "foil": false,
+     "app_number": 608
+    },
+    {
+     "num": 15,
+     "name": "Lamine Yamal",
+     "foil": false,
+     "app_number": 609
+    },
+    {
+     "num": 16,
+     "name": "Dani Olmo",
+     "foil": false,
+     "app_number": 610
+    },
+    {
+     "num": 17,
+     "name": "Nico Williams",
+     "foil": false,
+     "app_number": 611
+    },
+    {
+     "num": 18,
+     "name": "Ferran Torres",
+     "foil": false,
+     "app_number": 612
+    },
+    {
+     "num": 19,
+     "name": "Álvaro Morata",
+     "foil": false,
+     "app_number": 613
+    },
+    {
+     "num": 20,
+     "name": "Mikel Oyarzabal",
+     "foil": false,
+     "app_number": 614
+    }
+   ]
+  },
+  {
+   "code": "CPV",
+   "name": "Kap Verde",
+   "name_en": "Cape Verde",
+   "order": 30,
+   "group": "H",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 615
+    },
+    {
+     "num": 2,
+     "name": "Vozinha",
+     "foil": false,
+     "app_number": 616
+    },
+    {
+     "num": 3,
+     "name": "Logan Costa",
+     "foil": false,
+     "app_number": 617
+    },
+    {
+     "num": 4,
+     "name": "Pico",
+     "foil": false,
+     "app_number": 618
+    },
+    {
+     "num": 5,
+     "name": "Diney",
+     "foil": false,
+     "app_number": 619
+    },
+    {
+     "num": 6,
+     "name": "Steven Moreira",
+     "foil": false,
+     "app_number": 620
+    },
+    {
+     "num": 7,
+     "name": "Wagner Pina",
+     "foil": false,
+     "app_number": 621
+    },
+    {
+     "num": 8,
+     "name": "Joao Paulo",
+     "foil": false,
+     "app_number": 622
+    },
+    {
+     "num": 9,
+     "name": "Yannick Semedo",
+     "foil": false,
+     "app_number": 623
+    },
+    {
+     "num": 10,
+     "name": "Kevin Pina",
+     "foil": false,
+     "app_number": 624
+    },
+    {
+     "num": 11,
+     "name": "Patrick Andrade",
+     "foil": false,
+     "app_number": 625
+    },
+    {
+     "num": 12,
+     "name": "Jamiro Monteiro",
+     "foil": false,
+     "app_number": 626
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 627
+    },
+    {
+     "num": 14,
+     "name": "Deroy Duarte",
+     "foil": false,
+     "app_number": 628
+    },
+    {
+     "num": 15,
+     "name": "Garry Rodrigues",
+     "foil": false,
+     "app_number": 629
+    },
+    {
+     "num": 16,
+     "name": "Jovane Cabral",
+     "foil": false,
+     "app_number": 630
+    },
+    {
+     "num": 17,
+     "name": "Ryan Mendes",
+     "foil": false,
+     "app_number": 631
+    },
+    {
+     "num": 18,
+     "name": "Dailon Livramento",
+     "foil": false,
+     "app_number": 632
+    },
+    {
+     "num": 19,
+     "name": "Willy Semedo",
+     "foil": false,
+     "app_number": 633
+    },
+    {
+     "num": 20,
+     "name": "Bebe",
+     "foil": false,
+     "app_number": 634
+    }
+   ]
+  },
+  {
+   "code": "KSA",
+   "name": "Saudi-Arabien",
+   "name_en": "Saudi Arabia",
+   "order": 31,
+   "group": "H",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 635
+    },
+    {
+     "num": 2,
+     "name": "Nawaf Alaqidi",
+     "foil": false,
+     "app_number": 636
+    },
+    {
+     "num": 3,
+     "name": "Abdulrahman Al-Sanbi",
+     "foil": false,
+     "app_number": 637
+    },
+    {
+     "num": 4,
+     "name": "Saud Abdulhamid",
+     "foil": false,
+     "app_number": 638
+    },
+    {
+     "num": 5,
+     "name": "Nawaf Bouwashl",
+     "foil": false,
+     "app_number": 639
+    },
+    {
+     "num": 6,
+     "name": "Jihad Thakri",
+     "foil": false,
+     "app_number": 640
+    },
+    {
+     "num": 7,
+     "name": "Moteb Al-Harbi",
+     "foil": false,
+     "app_number": 641
+    },
+    {
+     "num": 8,
+     "name": "Hassan Altambakti",
+     "foil": false,
+     "app_number": 642
+    },
+    {
+     "num": 9,
+     "name": "Musab Aljuwayr",
+     "foil": false,
+     "app_number": 643
+    },
+    {
+     "num": 10,
+     "name": "Ziyad Aljohani",
+     "foil": false,
+     "app_number": 644
+    },
+    {
+     "num": 11,
+     "name": "Abdullah Alkhaibari",
+     "foil": false,
+     "app_number": 645
+    },
+    {
+     "num": 12,
+     "name": "Nasser Aldawsari",
+     "foil": false,
+     "app_number": 646
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 647
+    },
+    {
+     "num": 14,
+     "name": "Saleh Abu Alshamat",
+     "foil": false,
+     "app_number": 648
+    },
+    {
+     "num": 15,
+     "name": "Marwan Alsahafi",
+     "foil": false,
+     "app_number": 649
+    },
+    {
+     "num": 16,
+     "name": "Salem Aldawsari",
+     "foil": false,
+     "app_number": 650
+    },
+    {
+     "num": 17,
+     "name": "Abdulrahman Al-Aboud",
+     "foil": false,
+     "app_number": 651
+    },
+    {
+     "num": 18,
+     "name": "Feras Akbrikan",
+     "foil": false,
+     "app_number": 652
+    },
+    {
+     "num": 19,
+     "name": "Saleh Alshehri",
+     "foil": false,
+     "app_number": 653
+    },
+    {
+     "num": 20,
+     "name": "Abdullah Al-Hamdan",
+     "foil": false,
+     "app_number": 654
+    }
+   ]
+  },
+  {
+   "code": "URU",
+   "name": "Uruguay",
+   "name_en": "Uruguay",
+   "order": 32,
+   "group": "H",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 655
+    },
+    {
+     "num": 2,
+     "name": "Sergio Rochet",
+     "foil": false,
+     "app_number": 656
+    },
+    {
+     "num": 3,
+     "name": "Santiago Mele",
+     "foil": false,
+     "app_number": 657
+    },
+    {
+     "num": 4,
+     "name": "Ronald Araujo",
+     "foil": false,
+     "app_number": 658
+    },
+    {
+     "num": 5,
+     "name": "José María Giménez",
+     "foil": false,
+     "app_number": 659
+    },
+    {
+     "num": 6,
+     "name": "Sebastian Caceres",
+     "foil": false,
+     "app_number": 660
+    },
+    {
+     "num": 7,
+     "name": "Mathias Olivera",
+     "foil": false,
+     "app_number": 661
+    },
+    {
+     "num": 8,
+     "name": "Guillermo Varela",
+     "foil": false,
+     "app_number": 662
+    },
+    {
+     "num": 9,
+     "name": "Nahitan Nandez",
+     "foil": false,
+     "app_number": 663
+    },
+    {
+     "num": 10,
+     "name": "Federico Valverde",
+     "foil": false,
+     "app_number": 664
+    },
+    {
+     "num": 11,
+     "name": "Giorgian De Arrascaeta",
+     "foil": false,
+     "app_number": 665
+    },
+    {
+     "num": 12,
+     "name": "Rodrigo Bentancur",
+     "foil": false,
+     "app_number": 666
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 667
+    },
+    {
+     "num": 14,
+     "name": "Manuel Ugarte",
+     "foil": false,
+     "app_number": 668
+    },
+    {
+     "num": 15,
+     "name": "Nicolás de la Cruz",
+     "foil": false,
+     "app_number": 669
+    },
+    {
+     "num": 16,
+     "name": "Maxi Araujo",
+     "foil": false,
+     "app_number": 670
+    },
+    {
+     "num": 17,
+     "name": "Darwin Núñez",
+     "foil": false,
+     "app_number": 671
+    },
+    {
+     "num": 18,
+     "name": "Federico Viñas",
+     "foil": false,
+     "app_number": 672
+    },
+    {
+     "num": 19,
+     "name": "Rodrigo Aguirre",
+     "foil": false,
+     "app_number": 673
+    },
+    {
+     "num": 20,
+     "name": "Facundo Pellistri",
+     "foil": false,
+     "app_number": 674
+    }
+   ]
+  },
+  {
+   "code": "FRA",
+   "name": "Frankreich",
+   "name_en": "France",
+   "order": 33,
+   "group": "I",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 675
+    },
+    {
+     "num": 2,
+     "name": "Mike Maignan",
+     "foil": false,
+     "app_number": 676
+    },
+    {
+     "num": 3,
+     "name": "Theo Hernandez",
+     "foil": false,
+     "app_number": 677
+    },
+    {
+     "num": 4,
+     "name": "William Saliba",
+     "foil": false,
+     "app_number": 678
+    },
+    {
+     "num": 5,
+     "name": "Jules Kounde",
+     "foil": false,
+     "app_number": 679
+    },
+    {
+     "num": 6,
+     "name": "Ibrahima Konate",
+     "foil": false,
+     "app_number": 680
+    },
+    {
+     "num": 7,
+     "name": "Dayot Upamecano",
+     "foil": false,
+     "app_number": 681
+    },
+    {
+     "num": 8,
+     "name": "Lucas Digne",
+     "foil": false,
+     "app_number": 682
+    },
+    {
+     "num": 9,
+     "name": "Aurélien Tchouaméni",
+     "foil": false,
+     "app_number": 683
+    },
+    {
+     "num": 10,
+     "name": "Eduardo Camavinga",
+     "foil": false,
+     "app_number": 684
+    },
+    {
+     "num": 11,
+     "name": "Manu Kone",
+     "foil": false,
+     "app_number": 685
+    },
+    {
+     "num": 12,
+     "name": "Adrien Rabiot",
+     "foil": false,
+     "app_number": 686
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 687
+    },
+    {
+     "num": 14,
+     "name": "Michael Olise",
+     "foil": false,
+     "app_number": 688
+    },
+    {
+     "num": 15,
+     "name": "Ousmane Dembele",
+     "foil": false,
+     "app_number": 689
+    },
+    {
+     "num": 16,
+     "name": "Bradley Barcola",
+     "foil": false,
+     "app_number": 690
+    },
+    {
+     "num": 17,
+     "name": "Désiré Doué",
+     "foil": false,
+     "app_number": 691
+    },
+    {
+     "num": 18,
+     "name": "Kingsley Coman",
+     "foil": false,
+     "app_number": 692
+    },
+    {
+     "num": 19,
+     "name": "Hugo Ekitike",
+     "foil": false,
+     "app_number": 693
+    },
+    {
+     "num": 20,
+     "name": "Kylian Mbappe",
+     "foil": false,
+     "app_number": 694
+    }
+   ]
+  },
+  {
+   "code": "SEN",
+   "name": "Senegal",
+   "name_en": "Senegal",
+   "order": 34,
+   "group": "I",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 695
+    },
+    {
+     "num": 2,
+     "name": "Édouard Mendy",
+     "foil": false,
+     "app_number": 696
+    },
+    {
+     "num": 3,
+     "name": "Yehvann Diouf",
+     "foil": false,
+     "app_number": 697
+    },
+    {
+     "num": 4,
+     "name": "Moussa Niakhaté",
+     "foil": false,
+     "app_number": 698
+    },
+    {
+     "num": 5,
+     "name": "Abdoulaye Seck",
+     "foil": false,
+     "app_number": 699
+    },
+    {
+     "num": 6,
+     "name": "Ismail Jakobs",
+     "foil": false,
+     "app_number": 700
+    },
+    {
+     "num": 7,
+     "name": "El Hadji Malick Diouf",
+     "foil": false,
+     "app_number": 701
+    },
+    {
+     "num": 8,
+     "name": "Kalidou Koulibaly",
+     "foil": false,
+     "app_number": 702
+    },
+    {
+     "num": 9,
+     "name": "Idrissa Gana Gueye",
+     "foil": false,
+     "app_number": 703
+    },
+    {
+     "num": 10,
+     "name": "Pape Matar Sarr",
+     "foil": false,
+     "app_number": 704
+    },
+    {
+     "num": 11,
+     "name": "Pape Gueye",
+     "foil": false,
+     "app_number": 705
+    },
+    {
+     "num": 12,
+     "name": "Habib Diarra",
+     "foil": false,
+     "app_number": 706
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 707
+    },
+    {
+     "num": 14,
+     "name": "Lamine Camara",
+     "foil": false,
+     "app_number": 708
+    },
+    {
+     "num": 15,
+     "name": "Sadio Mane",
+     "foil": false,
+     "app_number": 709
+    },
+    {
+     "num": 16,
+     "name": "Ismaïla Sarr",
+     "foil": false,
+     "app_number": 710
+    },
+    {
+     "num": 17,
+     "name": "Boulaye Dia",
+     "foil": false,
+     "app_number": 711
+    },
+    {
+     "num": 18,
+     "name": "Iliman Ndiaye",
+     "foil": false,
+     "app_number": 712
+    },
+    {
+     "num": 19,
+     "name": "Nicolas Jackson",
+     "foil": false,
+     "app_number": 713
+    },
+    {
+     "num": 20,
+     "name": "Krepin Diatta",
+     "foil": false,
+     "app_number": 714
+    }
+   ]
+  },
+  {
+   "code": "IRQ",
+   "name": "Irak",
+   "name_en": "Iraq",
+   "order": 35,
+   "group": "I",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 715
+    },
+    {
+     "num": 2,
+     "name": "Jalal Hassan",
+     "foil": false,
+     "app_number": 716
+    },
+    {
+     "num": 3,
+     "name": "Rebin Sulaka",
+     "foil": false,
+     "app_number": 717
+    },
+    {
+     "num": 4,
+     "name": "Hussein Ali",
+     "foil": false,
+     "app_number": 718
+    },
+    {
+     "num": 5,
+     "name": "Akam Hashem",
+     "foil": false,
+     "app_number": 719
+    },
+    {
+     "num": 6,
+     "name": "Merchas Doski",
+     "foil": false,
+     "app_number": 720
+    },
+    {
+     "num": 7,
+     "name": "Zaid Tahseen",
+     "foil": false,
+     "app_number": 721
+    },
+    {
+     "num": 8,
+     "name": "Manaf Younis",
+     "foil": false,
+     "app_number": 722
+    },
+    {
+     "num": 9,
+     "name": "Zidane Iqbal",
+     "foil": false,
+     "app_number": 723
+    },
+    {
+     "num": 10,
+     "name": "Amir Al-Ammari",
+     "foil": false,
+     "app_number": 724
+    },
+    {
+     "num": 11,
+     "name": "Ibrahim Bavesh",
+     "foil": false,
+     "app_number": 725
+    },
+    {
+     "num": 12,
+     "name": "Ali Jasim",
+     "foil": false,
+     "app_number": 726
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 727
+    },
+    {
+     "num": 14,
+     "name": "Youssef Amyn",
+     "foil": false,
+     "app_number": 728
+    },
+    {
+     "num": 15,
+     "name": "Aimar Sher",
+     "foil": false,
+     "app_number": 729
+    },
+    {
+     "num": 16,
+     "name": "Marko Farji",
+     "foil": false,
+     "app_number": 730
+    },
+    {
+     "num": 17,
+     "name": "Osama Rashid",
+     "foil": false,
+     "app_number": 731
+    },
+    {
+     "num": 18,
+     "name": "Ali Al-Hamadi",
+     "foil": false,
+     "app_number": 732
+    },
+    {
+     "num": 19,
+     "name": "Aymen Hussein",
+     "foil": false,
+     "app_number": 733
+    },
+    {
+     "num": 20,
+     "name": "Mohanad Ali",
+     "foil": false,
+     "app_number": 734
+    }
+   ]
+  },
+  {
+   "code": "NOR",
+   "name": "Norwegen",
+   "name_en": "Norway",
+   "order": 36,
+   "group": "I",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 735
+    },
+    {
+     "num": 2,
+     "name": "Orjan Nyland",
+     "foil": false,
+     "app_number": 736
+    },
+    {
+     "num": 3,
+     "name": "Julian Ryerson",
+     "foil": false,
+     "app_number": 737
+    },
+    {
+     "num": 4,
+     "name": "Leo Ostigård",
+     "foil": false,
+     "app_number": 738
+    },
+    {
+     "num": 5,
+     "name": "Kristoffer Vassbakk Ajer",
+     "foil": false,
+     "app_number": 739
+    },
+    {
+     "num": 6,
+     "name": "Marcus Holmgren Pedersen",
+     "foil": false,
+     "app_number": 740
+    },
+    {
+     "num": 7,
+     "name": "David Møller Wolfe",
+     "foil": false,
+     "app_number": 741
+    },
+    {
+     "num": 8,
+     "name": "Torbjørn Heggem",
+     "foil": false,
+     "app_number": 742
+    },
+    {
+     "num": 9,
+     "name": "Morten Thorsby",
+     "foil": false,
+     "app_number": 743
+    },
+    {
+     "num": 10,
+     "name": "Martin Ødegaard",
+     "foil": false,
+     "app_number": 744
+    },
+    {
+     "num": 11,
+     "name": "Sander Berge",
+     "foil": false,
+     "app_number": 745
+    },
+    {
+     "num": 12,
+     "name": "Andreas Schjelderup",
+     "foil": false,
+     "app_number": 746
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 747
+    },
+    {
+     "num": 14,
+     "name": "Patrick Berg",
+     "foil": false,
+     "app_number": 748
+    },
+    {
+     "num": 15,
+     "name": "Erling Haaland",
+     "foil": false,
+     "app_number": 749
+    },
+    {
+     "num": 16,
+     "name": "Alexander Sørloth",
+     "foil": false,
+     "app_number": 750
+    },
+    {
+     "num": 17,
+     "name": "Aron Dønnum",
+     "foil": false,
+     "app_number": 751
+    },
+    {
+     "num": 18,
+     "name": "Jorgen Strand Larsen",
+     "foil": false,
+     "app_number": 752
+    },
+    {
+     "num": 19,
+     "name": "Antonio Nusa",
+     "foil": false,
+     "app_number": 753
+    },
+    {
+     "num": 20,
+     "name": "Oscar Bobb",
+     "foil": false,
+     "app_number": 754
+    }
+   ]
+  },
+  {
+   "code": "ARG",
+   "name": "Argentinien",
+   "name_en": "Argentina",
+   "order": 37,
+   "group": "J",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 755
+    },
+    {
+     "num": 2,
+     "name": "Emiliano Martinez",
+     "foil": false,
+     "app_number": 756
+    },
+    {
+     "num": 3,
+     "name": "Nahuel Molina",
+     "foil": false,
+     "app_number": 757
+    },
+    {
+     "num": 4,
+     "name": "Cristian Romero",
+     "foil": false,
+     "app_number": 758
+    },
+    {
+     "num": 5,
+     "name": "Nicolas Otamendi",
+     "foil": false,
+     "app_number": 759
+    },
+    {
+     "num": 6,
+     "name": "Nicolas Tagliafico",
+     "foil": false,
+     "app_number": 760
+    },
+    {
+     "num": 7,
+     "name": "Leonardo Balerdi",
+     "foil": false,
+     "app_number": 761
+    },
+    {
+     "num": 8,
+     "name": "Enzo Fernandez",
+     "foil": false,
+     "app_number": 762
+    },
+    {
+     "num": 9,
+     "name": "Alexis Mac Allister",
+     "foil": false,
+     "app_number": 763
+    },
+    {
+     "num": 10,
+     "name": "Rodrigo De Paul",
+     "foil": false,
+     "app_number": 764
+    },
+    {
+     "num": 11,
+     "name": "Exequiel Palacios",
+     "foil": false,
+     "app_number": 765
+    },
+    {
+     "num": 12,
+     "name": "Leandro Paredes",
+     "foil": false,
+     "app_number": 766
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 767
+    },
+    {
+     "num": 14,
+     "name": "Nico Paz",
+     "foil": false,
+     "app_number": 768
+    },
+    {
+     "num": 15,
+     "name": "Franco Mastantuono",
+     "foil": false,
+     "app_number": 769
+    },
+    {
+     "num": 16,
+     "name": "Nico Gonzalez",
+     "foil": false,
+     "app_number": 770
+    },
+    {
+     "num": 17,
+     "name": "Lionel Messi",
+     "foil": false,
+     "app_number": 771
+    },
+    {
+     "num": 18,
+     "name": "Lautaro Martinez",
+     "foil": false,
+     "app_number": 772
+    },
+    {
+     "num": 19,
+     "name": "Julian Alvarez",
+     "foil": false,
+     "app_number": 773
+    },
+    {
+     "num": 20,
+     "name": "Giuliano Simeone",
+     "foil": false,
+     "app_number": 774
+    }
+   ]
+  },
+  {
+   "code": "ALG",
+   "name": "Algerien",
+   "name_en": "Algeria",
+   "order": 38,
+   "group": "J",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 775
+    },
+    {
+     "num": 2,
+     "name": "Alexis Guendouz",
+     "foil": false,
+     "app_number": 776
+    },
+    {
+     "num": 3,
+     "name": "Ramy Bensebaini",
+     "foil": false,
+     "app_number": 777
+    },
+    {
+     "num": 4,
+     "name": "Youcef Atal",
+     "foil": false,
+     "app_number": 778
+    },
+    {
+     "num": 5,
+     "name": "Rayan Aït-Nouri",
+     "foil": false,
+     "app_number": 779
+    },
+    {
+     "num": 6,
+     "name": "Mohamed Amine Tougai",
+     "foil": false,
+     "app_number": 780
+    },
+    {
+     "num": 7,
+     "name": "Aïssa Mandi",
+     "foil": false,
+     "app_number": 781
+    },
+    {
+     "num": 8,
+     "name": "Ismael Bennacer",
+     "foil": false,
+     "app_number": 782
+    },
+    {
+     "num": 9,
+     "name": "Houssem Aouar",
+     "foil": false,
+     "app_number": 783
+    },
+    {
+     "num": 10,
+     "name": "Hicham Boudaoui",
+     "foil": false,
+     "app_number": 784
+    },
+    {
+     "num": 11,
+     "name": "Ramiz Zerrouki",
+     "foil": false,
+     "app_number": 785
+    },
+    {
+     "num": 12,
+     "name": "Nabil Bentaleb",
+     "foil": false,
+     "app_number": 786
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 787
+    },
+    {
+     "num": 14,
+     "name": "Farés Chaibi",
+     "foil": false,
+     "app_number": 788
+    },
+    {
+     "num": 15,
+     "name": "Riyad Mahrez",
+     "foil": false,
+     "app_number": 789
+    },
+    {
+     "num": 16,
+     "name": "Said Benrahma",
+     "foil": false,
+     "app_number": 790
+    },
+    {
+     "num": 17,
+     "name": "Anis Hadj Moussa",
+     "foil": false,
+     "app_number": 791
+    },
+    {
+     "num": 18,
+     "name": "Amine Gouiri",
+     "foil": false,
+     "app_number": 792
+    },
+    {
+     "num": 19,
+     "name": "Baghdad Bounedjah",
+     "foil": false,
+     "app_number": 793
+    },
+    {
+     "num": 20,
+     "name": "Mohammed Amoura",
+     "foil": false,
+     "app_number": 794
+    }
+   ]
+  },
+  {
+   "code": "AUT",
+   "name": "Österreich",
+   "name_en": "Austria",
+   "order": 39,
+   "group": "J",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 795
+    },
+    {
+     "num": 2,
+     "name": "Alexander Schlager",
+     "foil": false,
+     "app_number": 796
+    },
+    {
+     "num": 3,
+     "name": "Patrick Pentz",
+     "foil": false,
+     "app_number": 797
+    },
+    {
+     "num": 4,
+     "name": "David Alaba",
+     "foil": false,
+     "app_number": 798
+    },
+    {
+     "num": 5,
+     "name": "Kevin Danso",
+     "foil": false,
+     "app_number": 799
+    },
+    {
+     "num": 6,
+     "name": "Philipp Lienhart",
+     "foil": false,
+     "app_number": 800
+    },
+    {
+     "num": 7,
+     "name": "Stefan Posch",
+     "foil": false,
+     "app_number": 801
+    },
+    {
+     "num": 8,
+     "name": "Phillipp Mwene",
+     "foil": false,
+     "app_number": 802
+    },
+    {
+     "num": 9,
+     "name": "Alexander Prass",
+     "foil": false,
+     "app_number": 803
+    },
+    {
+     "num": 10,
+     "name": "Xaver Schlager",
+     "foil": false,
+     "app_number": 804
+    },
+    {
+     "num": 11,
+     "name": "Marcel Sabitzer",
+     "foil": false,
+     "app_number": 805
+    },
+    {
+     "num": 12,
+     "name": "Konrad Laimer",
+     "foil": false,
+     "app_number": 806
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 807
+    },
+    {
+     "num": 14,
+     "name": "Florian Grillitsch",
+     "foil": false,
+     "app_number": 808
+    },
+    {
+     "num": 15,
+     "name": "Nicolas Seiwald",
+     "foil": false,
+     "app_number": 809
+    },
+    {
+     "num": 16,
+     "name": "Romano Schmid",
+     "foil": false,
+     "app_number": 810
+    },
+    {
+     "num": 17,
+     "name": "Patrick Wimmer",
+     "foil": false,
+     "app_number": 811
+    },
+    {
+     "num": 18,
+     "name": "Christoph Baumgartner",
+     "foil": false,
+     "app_number": 812
+    },
+    {
+     "num": 19,
+     "name": "Michael Gregoritsch",
+     "foil": false,
+     "app_number": 813
+    },
+    {
+     "num": 20,
+     "name": "Marko Arnautović",
+     "foil": false,
+     "app_number": 814
+    }
+   ]
+  },
+  {
+   "code": "JOR",
+   "name": "Jordanien",
+   "name_en": "Jordan",
+   "order": 40,
+   "group": "J",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 815
+    },
+    {
+     "num": 2,
+     "name": "Yazeed Abulaila",
+     "foil": false,
+     "app_number": 816
+    },
+    {
+     "num": 3,
+     "name": "Ihsan Haddad",
+     "foil": false,
+     "app_number": 817
+    },
+    {
+     "num": 4,
+     "name": "Mohammad Abu Hashish",
+     "foil": false,
+     "app_number": 818
+    },
+    {
+     "num": 5,
+     "name": "Yazan Al-Arab",
+     "foil": false,
+     "app_number": 819
+    },
+    {
+     "num": 6,
+     "name": "Abdallah Nasib",
+     "foil": false,
+     "app_number": 820
+    },
+    {
+     "num": 7,
+     "name": "Saleem Obaid",
+     "foil": false,
+     "app_number": 821
+    },
+    {
+     "num": 8,
+     "name": "Mohammad Abualnadi",
+     "foil": false,
+     "app_number": 822
+    },
+    {
+     "num": 9,
+     "name": "Ibrahim Saadeh",
+     "foil": false,
+     "app_number": 823
+    },
+    {
+     "num": 10,
+     "name": "Nizar Al-Rashdan",
+     "foil": false,
+     "app_number": 824
+    },
+    {
+     "num": 11,
+     "name": "Noor Al-Rawabdeh",
+     "foil": false,
+     "app_number": 825
+    },
+    {
+     "num": 12,
+     "name": "Mohannad Abu Taha",
+     "foil": false,
+     "app_number": 826
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 827
+    },
+    {
+     "num": 14,
+     "name": "Amer Jamous",
+     "foil": false,
+     "app_number": 828
+    },
+    {
+     "num": 15,
+     "name": "Musa Al-Taamari",
+     "foil": false,
+     "app_number": 829
+    },
+    {
+     "num": 16,
+     "name": "Yazan Al-Naimat",
+     "foil": false,
+     "app_number": 830
+    },
+    {
+     "num": 17,
+     "name": "Mahmoud Al-Mardi",
+     "foil": false,
+     "app_number": 831
+    },
+    {
+     "num": 18,
+     "name": "Ali Olwan",
+     "foil": false,
+     "app_number": 832
+    },
+    {
+     "num": 19,
+     "name": "Mohammad Abu Zrayq",
+     "foil": false,
+     "app_number": 833
+    },
+    {
+     "num": 20,
+     "name": "Ibrahim Sabra",
+     "foil": false,
+     "app_number": 834
+    }
+   ]
+  },
+  {
+   "code": "POR",
+   "name": "Portugal",
+   "name_en": "Portugal",
+   "order": 41,
+   "group": "K",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 835
+    },
+    {
+     "num": 2,
+     "name": "Diogo Costa",
+     "foil": false,
+     "app_number": 836
+    },
+    {
+     "num": 3,
+     "name": "José Sá",
+     "foil": false,
+     "app_number": 837
+    },
+    {
+     "num": 4,
+     "name": "Ruben Dias",
+     "foil": false,
+     "app_number": 838
+    },
+    {
+     "num": 5,
+     "name": "João Cancelo",
+     "foil": false,
+     "app_number": 839
+    },
+    {
+     "num": 6,
+     "name": "Diogo Dalot",
+     "foil": false,
+     "app_number": 840
+    },
+    {
+     "num": 7,
+     "name": "Nuno Mendes",
+     "foil": false,
+     "app_number": 841
+    },
+    {
+     "num": 8,
+     "name": "Gonçalo Inácio",
+     "foil": false,
+     "app_number": 842
+    },
+    {
+     "num": 9,
+     "name": "Bernardo Silva",
+     "foil": false,
+     "app_number": 843
+    },
+    {
+     "num": 10,
+     "name": "Bruno Fernandes",
+     "foil": false,
+     "app_number": 844
+    },
+    {
+     "num": 11,
+     "name": "Ruben Neves",
+     "foil": false,
+     "app_number": 845
+    },
+    {
+     "num": 12,
+     "name": "Vitinha",
+     "foil": false,
+     "app_number": 846
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 847
+    },
+    {
+     "num": 14,
+     "name": "João Neves",
+     "foil": false,
+     "app_number": 848
+    },
+    {
+     "num": 15,
+     "name": "Cristiano Ronaldo",
+     "foil": false,
+     "app_number": 849
+    },
+    {
+     "num": 16,
+     "name": "Francisco Trincao",
+     "foil": false,
+     "app_number": 850
+    },
+    {
+     "num": 17,
+     "name": "João Felix",
+     "foil": false,
+     "app_number": 851
+    },
+    {
+     "num": 18,
+     "name": "Gonçalo Ramos",
+     "foil": false,
+     "app_number": 852
+    },
+    {
+     "num": 19,
+     "name": "Pedro Neto",
+     "foil": false,
+     "app_number": 853
+    },
+    {
+     "num": 20,
+     "name": "Rafael Leão",
+     "foil": false,
+     "app_number": 854
+    }
+   ]
+  },
+  {
+   "code": "COD",
+   "name": "DR Kongo",
+   "name_en": "Congo DR",
+   "order": 42,
+   "group": "K",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 855
+    },
+    {
+     "num": 2,
+     "name": "Lionel Mpasi-Nzau",
+     "foil": false,
+     "app_number": 856
+    },
+    {
+     "num": 3,
+     "name": "Aaron Wan-Bissaka",
+     "foil": false,
+     "app_number": 857
+    },
+    {
+     "num": 4,
+     "name": "Axel Tuanzebe",
+     "foil": false,
+     "app_number": 858
+    },
+    {
+     "num": 5,
+     "name": "Arthur Masuaku",
+     "foil": false,
+     "app_number": 859
+    },
+    {
+     "num": 6,
+     "name": "Chancel Mbemba",
+     "foil": false,
+     "app_number": 860
+    },
+    {
+     "num": 7,
+     "name": "Joris Kayembe",
+     "foil": false,
+     "app_number": 861
+    },
+    {
+     "num": 8,
+     "name": "Charles Pickel",
+     "foil": false,
+     "app_number": 862
+    },
+    {
+     "num": 9,
+     "name": "Ngal'ayel Mukau",
+     "foil": false,
+     "app_number": 863
+    },
+    {
+     "num": 10,
+     "name": "Edo Kayembe",
+     "foil": false,
+     "app_number": 864
+    },
+    {
+     "num": 11,
+     "name": "Samuel Moutoussamy",
+     "foil": false,
+     "app_number": 865
+    },
+    {
+     "num": 12,
+     "name": "Noah Sadiki",
+     "foil": false,
+     "app_number": 866
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 867
+    },
+    {
+     "num": 14,
+     "name": "Théo Bongonda",
+     "foil": false,
+     "app_number": 868
+    },
+    {
+     "num": 15,
+     "name": "Meschak Elia",
+     "foil": false,
+     "app_number": 869
+    },
+    {
+     "num": 16,
+     "name": "Yoane Wissa",
+     "foil": false,
+     "app_number": 870
+    },
+    {
+     "num": 17,
+     "name": "Brian Cipenga",
+     "foil": false,
+     "app_number": 871
+    },
+    {
+     "num": 18,
+     "name": "Fiston Mayele",
+     "foil": false,
+     "app_number": 872
+    },
+    {
+     "num": 19,
+     "name": "Cédric Bakambu",
+     "foil": false,
+     "app_number": 873
+    },
+    {
+     "num": 20,
+     "name": "Nathanaël Mbuku",
+     "foil": false,
+     "app_number": 874
+    }
+   ]
+  },
+  {
+   "code": "UZB",
+   "name": "Usbekistan",
+   "name_en": "Uzbekistan",
+   "order": 43,
+   "group": "K",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 875
+    },
+    {
+     "num": 2,
+     "name": "Utkir Yusupov",
+     "foil": false,
+     "app_number": 876
+    },
+    {
+     "num": 3,
+     "name": "Farrukh Savfiev",
+     "foil": false,
+     "app_number": 877
+    },
+    {
+     "num": 4,
+     "name": "Sherzod Nasrullaev",
+     "foil": false,
+     "app_number": 878
+    },
+    {
+     "num": 5,
+     "name": "Umar Eshmurodov",
+     "foil": false,
+     "app_number": 879
+    },
+    {
+     "num": 6,
+     "name": "Husniddin Aliqulov",
+     "foil": false,
+     "app_number": 880
+    },
+    {
+     "num": 7,
+     "name": "Rustamjon Ashurmatov",
+     "foil": false,
+     "app_number": 881
+    },
+    {
+     "num": 8,
+     "name": "Khojiakbar Alijonov",
+     "foil": false,
+     "app_number": 882
+    },
+    {
+     "num": 9,
+     "name": "Abdukodir Khusanov",
+     "foil": false,
+     "app_number": 883
+    },
+    {
+     "num": 10,
+     "name": "Odiljon Hamrobekov",
+     "foil": false,
+     "app_number": 884
+    },
+    {
+     "num": 11,
+     "name": "Otabek Shukurov",
+     "foil": false,
+     "app_number": 885
+    },
+    {
+     "num": 12,
+     "name": "Jamshid Iskanderov",
+     "foil": false,
+     "app_number": 886
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 887
+    },
+    {
+     "num": 14,
+     "name": "Azizbek Turgunboev",
+     "foil": false,
+     "app_number": 888
+    },
+    {
+     "num": 15,
+     "name": "Khojimat Erkinov",
+     "foil": false,
+     "app_number": 889
+    },
+    {
+     "num": 16,
+     "name": "Eldor Shomurodov",
+     "foil": false,
+     "app_number": 890
+    },
+    {
+     "num": 17,
+     "name": "Oston Urunov",
+     "foil": false,
+     "app_number": 891
+    },
+    {
+     "num": 18,
+     "name": "Jaloliddin Masharipov",
+     "foil": false,
+     "app_number": 892
+    },
+    {
+     "num": 19,
+     "name": "Igor Sergeev",
+     "foil": false,
+     "app_number": 893
+    },
+    {
+     "num": 20,
+     "name": "Abbosbek Fayzullaev",
+     "foil": false,
+     "app_number": 894
+    }
+   ]
+  },
+  {
+   "code": "COL",
+   "name": "Kolumbien",
+   "name_en": "Colombia",
+   "order": 44,
+   "group": "K",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 895
+    },
+    {
+     "num": 2,
+     "name": "Camilo Vargas",
+     "foil": false,
+     "app_number": 896
+    },
+    {
+     "num": 3,
+     "name": "David Ospina",
+     "foil": false,
+     "app_number": 897
+    },
+    {
+     "num": 4,
+     "name": "Dávinson Sánchez",
+     "foil": false,
+     "app_number": 898
+    },
+    {
+     "num": 5,
+     "name": "Yerry Mina",
+     "foil": false,
+     "app_number": 899
+    },
+    {
+     "num": 6,
+     "name": "Daniel Munoz",
+     "foil": false,
+     "app_number": 900
+    },
+    {
+     "num": 7,
+     "name": "Johan Mojica",
+     "foil": false,
+     "app_number": 901
+    },
+    {
+     "num": 8,
+     "name": "Jhon Lucumí",
+     "foil": false,
+     "app_number": 902
+    },
+    {
+     "num": 9,
+     "name": "Santiago Arias",
+     "foil": false,
+     "app_number": 903
+    },
+    {
+     "num": 10,
+     "name": "Jefferson Lerma",
+     "foil": false,
+     "app_number": 904
+    },
+    {
+     "num": 11,
+     "name": "Kevin Castaño",
+     "foil": false,
+     "app_number": 905
+    },
+    {
+     "num": 12,
+     "name": "Richard Rios",
+     "foil": false,
+     "app_number": 906
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 907
+    },
+    {
+     "num": 14,
+     "name": "James Rodriguez",
+     "foil": false,
+     "app_number": 908
+    },
+    {
+     "num": 15,
+     "name": "Juan Fernando Quintero",
+     "foil": false,
+     "app_number": 909
+    },
+    {
+     "num": 16,
+     "name": "Jorge Carrascal",
+     "foil": false,
+     "app_number": 910
+    },
+    {
+     "num": 17,
+     "name": "Jhon Arias",
+     "foil": false,
+     "app_number": 911
+    },
+    {
+     "num": 18,
+     "name": "Jhon Córdoba",
+     "foil": false,
+     "app_number": 912
+    },
+    {
+     "num": 19,
+     "name": "Luis Suarez",
+     "foil": false,
+     "app_number": 913
+    },
+    {
+     "num": 20,
+     "name": "Luis Diaz",
+     "foil": false,
+     "app_number": 914
+    }
+   ]
+  },
+  {
+   "code": "ENG",
+   "name": "England",
+   "name_en": "England",
+   "order": 45,
+   "group": "L",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 915
+    },
+    {
+     "num": 2,
+     "name": "Jordan Pickford",
+     "foil": false,
+     "app_number": 916
+    },
+    {
+     "num": 3,
+     "name": "John Stones",
+     "foil": false,
+     "app_number": 917
+    },
+    {
+     "num": 4,
+     "name": "Marc Guéhi",
+     "foil": false,
+     "app_number": 918
+    },
+    {
+     "num": 5,
+     "name": "Ezri Konsa",
+     "foil": false,
+     "app_number": 919
+    },
+    {
+     "num": 6,
+     "name": "Trent Alexander-Arnold",
+     "foil": false,
+     "app_number": 920
+    },
+    {
+     "num": 7,
+     "name": "Reece James",
+     "foil": false,
+     "app_number": 921
+    },
+    {
+     "num": 8,
+     "name": "Dan Burn",
+     "foil": false,
+     "app_number": 922
+    },
+    {
+     "num": 9,
+     "name": "Jordan Henderson",
+     "foil": false,
+     "app_number": 923
+    },
+    {
+     "num": 10,
+     "name": "Declan Rice",
+     "foil": false,
+     "app_number": 924
+    },
+    {
+     "num": 11,
+     "name": "Jude Bellingham",
+     "foil": false,
+     "app_number": 925
+    },
+    {
+     "num": 12,
+     "name": "Cole Palmer",
+     "foil": false,
+     "app_number": 926
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 927
+    },
+    {
+     "num": 14,
+     "name": "Morgan Rogers",
+     "foil": false,
+     "app_number": 928
+    },
+    {
+     "num": 15,
+     "name": "Anthony Gordon",
+     "foil": false,
+     "app_number": 929
+    },
+    {
+     "num": 16,
+     "name": "Phil Foden",
+     "foil": false,
+     "app_number": 930
+    },
+    {
+     "num": 17,
+     "name": "Bukayo Saka",
+     "foil": false,
+     "app_number": 931
+    },
+    {
+     "num": 18,
+     "name": "Harry Kane",
+     "foil": false,
+     "app_number": 932
+    },
+    {
+     "num": 19,
+     "name": "Marcus Rashford",
+     "foil": false,
+     "app_number": 933
+    },
+    {
+     "num": 20,
+     "name": "Ollie Watkins",
+     "foil": false,
+     "app_number": 934
+    }
+   ]
+  },
+  {
+   "code": "CRO",
+   "name": "Kroatien",
+   "name_en": "Croatia",
+   "order": 46,
+   "group": "L",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 935
+    },
+    {
+     "num": 2,
+     "name": "Dominik Livaković",
+     "foil": false,
+     "app_number": 936
+    },
+    {
+     "num": 3,
+     "name": "Duje Caleta-Car",
+     "foil": false,
+     "app_number": 937
+    },
+    {
+     "num": 4,
+     "name": "Josko Gvardiol",
+     "foil": false,
+     "app_number": 938
+    },
+    {
+     "num": 5,
+     "name": "Josip Stanišić",
+     "foil": false,
+     "app_number": 939
+    },
+    {
+     "num": 6,
+     "name": "Luka Vušković",
+     "foil": false,
+     "app_number": 940
+    },
+    {
+     "num": 7,
+     "name": "Josip Sutalo",
+     "foil": false,
+     "app_number": 941
+    },
+    {
+     "num": 8,
+     "name": "Kristijan Jakic",
+     "foil": false,
+     "app_number": 942
+    },
+    {
+     "num": 9,
+     "name": "Luka Modrić",
+     "foil": false,
+     "app_number": 943
+    },
+    {
+     "num": 10,
+     "name": "Mateo Kovacic",
+     "foil": false,
+     "app_number": 944
+    },
+    {
+     "num": 11,
+     "name": "Martin Baturina",
+     "foil": false,
+     "app_number": 945
+    },
+    {
+     "num": 12,
+     "name": "Lovro Majer",
+     "foil": false,
+     "app_number": 946
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 947
+    },
+    {
+     "num": 14,
+     "name": "Mario Pasalic",
+     "foil": false,
+     "app_number": 948
+    },
+    {
+     "num": 15,
+     "name": "Petar Sucic",
+     "foil": false,
+     "app_number": 949
+    },
+    {
+     "num": 16,
+     "name": "Ivan Perišić",
+     "foil": false,
+     "app_number": 950
+    },
+    {
+     "num": 17,
+     "name": "Marco Pasalic",
+     "foil": false,
+     "app_number": 951
+    },
+    {
+     "num": 18,
+     "name": "Ante Budimir",
+     "foil": false,
+     "app_number": 952
+    },
+    {
+     "num": 19,
+     "name": "Andrej Kramarić",
+     "foil": false,
+     "app_number": 953
+    },
+    {
+     "num": 20,
+     "name": "Franjo Ivanovic",
+     "foil": false,
+     "app_number": 954
+    }
+   ]
+  },
+  {
+   "code": "GHA",
+   "name": "Ghana",
+   "name_en": "Ghana",
+   "order": 47,
+   "group": "L",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 955
+    },
+    {
+     "num": 2,
+     "name": "Lawrence Ati Zigi",
+     "foil": false,
+     "app_number": 956
+    },
+    {
+     "num": 3,
+     "name": "Tariq Lamptey",
+     "foil": false,
+     "app_number": 957
+    },
+    {
+     "num": 4,
+     "name": "Mohammed Salisu",
+     "foil": false,
+     "app_number": 958
+    },
+    {
+     "num": 5,
+     "name": "Alidu Seidu",
+     "foil": false,
+     "app_number": 959
+    },
+    {
+     "num": 6,
+     "name": "Alexander Djiku",
+     "foil": false,
+     "app_number": 960
+    },
+    {
+     "num": 7,
+     "name": "Gideon Mensah",
+     "foil": false,
+     "app_number": 961
+    },
+    {
+     "num": 8,
+     "name": "Caleb Yirenkyi",
+     "foil": false,
+     "app_number": 962
+    },
+    {
+     "num": 9,
+     "name": "Abdul Issahaku Fatawu",
+     "foil": false,
+     "app_number": 963
+    },
+    {
+     "num": 10,
+     "name": "Thomas Partey",
+     "foil": false,
+     "app_number": 964
+    },
+    {
+     "num": 11,
+     "name": "Salis Abdul Samed",
+     "foil": false,
+     "app_number": 965
+    },
+    {
+     "num": 12,
+     "name": "Kamaldeen Sulemana",
+     "foil": false,
+     "app_number": 966
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 967
+    },
+    {
+     "num": 14,
+     "name": "Mohammed Kudus",
+     "foil": false,
+     "app_number": 968
+    },
+    {
+     "num": 15,
+     "name": "Inaki Williams",
+     "foil": false,
+     "app_number": 969
+    },
+    {
+     "num": 16,
+     "name": "Jordan Ayew",
+     "foil": false,
+     "app_number": 970
+    },
+    {
+     "num": 17,
+     "name": "André Ayew",
+     "foil": false,
+     "app_number": 971
+    },
+    {
+     "num": 18,
+     "name": "Joseph Paintsil",
+     "foil": false,
+     "app_number": 972
+    },
+    {
+     "num": 19,
+     "name": "Osman Bukari",
+     "foil": false,
+     "app_number": 973
+    },
+    {
+     "num": 20,
+     "name": "Antoine Semenyo",
+     "foil": false,
+     "app_number": 974
+    }
+   ]
+  },
+  {
+   "code": "PAN",
+   "name": "Panama",
+   "name_en": "Panama",
+   "order": 48,
+   "group": "L",
+   "stickers": [
+    {
+     "num": 1,
+     "name": "Team Logo",
+     "foil": true,
+     "app_number": 975
+    },
+    {
+     "num": 2,
+     "name": "Orlando Mosquera",
+     "foil": false,
+     "app_number": 976
+    },
+    {
+     "num": 3,
+     "name": "Luis Mejia",
+     "foil": false,
+     "app_number": 977
+    },
+    {
+     "num": 4,
+     "name": "Fidel Escobar",
+     "foil": false,
+     "app_number": 978
+    },
+    {
+     "num": 5,
+     "name": "Andres Andrade",
+     "foil": false,
+     "app_number": 979
+    },
+    {
+     "num": 6,
+     "name": "Michael Amir Murillo",
+     "foil": false,
+     "app_number": 980
+    },
+    {
+     "num": 7,
+     "name": "Eric Davis",
+     "foil": false,
+     "app_number": 981
+    },
+    {
+     "num": 8,
+     "name": "Jose Cordoba",
+     "foil": false,
+     "app_number": 982
+    },
+    {
+     "num": 9,
+     "name": "Cesar Blackman",
+     "foil": false,
+     "app_number": 983
+    },
+    {
+     "num": 10,
+     "name": "Cristian Martinez",
+     "foil": false,
+     "app_number": 984
+    },
+    {
+     "num": 11,
+     "name": "Aníbal Godoy",
+     "foil": false,
+     "app_number": 985
+    },
+    {
+     "num": 12,
+     "name": "Adalberto Carrasquilla",
+     "foil": false,
+     "app_number": 986
+    },
+    {
+     "num": 13,
+     "name": "Team Photo",
+     "foil": false,
+     "app_number": 987
+    },
+    {
+     "num": 14,
+     "name": "Édgar Bárcenas",
+     "foil": false,
+     "app_number": 988
+    },
+    {
+     "num": 15,
+     "name": "Carlos Harvey",
+     "foil": false,
+     "app_number": 989
+    },
+    {
+     "num": 16,
+     "name": "Ismael Díaz",
+     "foil": false,
+     "app_number": 990
+    },
+    {
+     "num": 17,
+     "name": "Jose Fajardo",
+     "foil": false,
+     "app_number": 991
+    },
+    {
+     "num": 18,
+     "name": "Cecilio Waterman",
+     "foil": false,
+     "app_number": 992
+    },
+    {
+     "num": 19,
+     "name": "Jose Luiz Rodriguez",
+     "foil": false,
+     "app_number": 993
+    },
+    {
+     "num": 20,
+     "name": "Alberto Quintero",
+     "foil": false,
+     "app_number": 994
+    }
+   ]
+  }
+ ]
+}

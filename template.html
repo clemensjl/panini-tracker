@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0E1B12">
+<title>Mein Album · WM 2026</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='2' width='26' height='28' rx='4' fill='%23F7F5EF'/%3E%3Crect x='7' y='7' width='8' height='10' rx='1' fill='none' stroke='%231E7A46' stroke-width='2' stroke-dasharray='3 2'/%3E%3Crect x='17' y='13' width='8' height='10' rx='1' fill='%231E7A46' transform='rotate(4 21 18)'/%3E%3C/svg%3E">
+<style>
+:root{
+  --pitch:#0E1B12;
+  --pitch-2:#132419;
+  --paper:#F7F5EF;
+  --paper-2:#EFEBE0;
+  --ink:#1A2321;
+  --ink-soft:#5A625C;
+  --host-red:#D33A2C;
+  --host-green:#1E7A46;
+  --host-blue:#1D4E89;
+  --line:rgba(26,35,33,.18);
+  --chrome-text:#E9EDE7;
+  --chrome-dim:#8FA096;
+  --foil:linear-gradient(120deg,#d8d8de 0%,#f2f0f6 18%,#bfd4e8 32%,#e8d9ee 46%,#d6ecd9 60%,#f4ecd2 74%,#d8d8de 100%);
+  --radius:10px;
+  --disp:'Segoe UI Variable Display','Segoe UI',system-ui,sans-serif;
+  --body:'Segoe UI Variable Text','Segoe UI',system-ui,sans-serif;
+  --mono:'Cascadia Mono','Consolas',ui-monospace,monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  background:var(--pitch);
+  color:var(--chrome-text);
+  font-family:var(--body);
+  font-size:15px;
+  line-height:1.45;
+  min-height:100vh;
+  padding-bottom:60px;
+}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+:focus-visible{outline:3px solid #7FC8A0;outline-offset:2px;border-radius:4px}
+
+/* ---------- Kopf ---------- */
+header{
+  position:sticky;top:0;z-index:40;
+  background:var(--pitch);
+  padding:14px 16px 10px;
+}
+.head-inner{max-width:860px;margin:0 auto}
+.eyebrow{
+  font-family:var(--mono);font-size:10px;letter-spacing:.22em;
+  color:var(--chrome-dim);text-transform:uppercase;
+}
+.head-row{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-top:2px}
+h1{
+  font-family:var(--disp);font-weight:800;font-size:clamp(22px,6vw,26px);
+  letter-spacing:.04em;text-transform:uppercase;line-height:1;
+  font-stretch:condensed;
+}
+h1 .y{color:var(--host-red)}
+.head-count{font-family:var(--mono);font-size:15px;white-space:nowrap}
+.head-count b{font-size:21px;color:#fff}
+.head-count span{color:var(--chrome-dim)}
+.head-bar{margin-top:8px;height:5px;border-radius:3px;background:rgba(255,255,255,.12);overflow:hidden}
+.head-bar i{display:block;height:100%;border-radius:3px;background:linear-gradient(90deg,var(--host-green),#2fa367);transition:width .5s ease}
+
+/* ---------- Tabs ---------- */
+nav{
+  position:sticky;top:76px;z-index:39;
+  padding:6px 16px 10px;
+  background:var(--pitch);
+}
+.tabs{max-width:860px;margin:0 auto;display:flex;gap:6px}
+.tab{
+  flex:1;padding:9px 4px;border-radius:8px;
+  font-family:var(--disp);font-weight:700;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--chrome-dim);background:rgba(255,255,255,.05);
+  border:1px solid transparent;min-height:40px;
+}
+.tab[aria-selected="true"]{color:#fff;background:rgba(30,122,70,.28);border-color:rgba(47,163,103,.5)}
+
+main{max-width:860px;margin:0 auto;padding:4px 12px}
+section[hidden]{display:none}
+
+/* ---------- Dashboard ---------- */
+.dash-hero{
+  display:flex;align-items:center;gap:20px;
+  padding:18px 6px 8px;
+}
+.ring{position:relative;width:118px;height:118px;flex:none}
+.ring svg{transform:rotate(-90deg)}
+.ring .pct{
+  position:absolute;inset:0;display:grid;place-content:center;text-align:center;
+  font-family:var(--disp);font-weight:800;font-size:27px;line-height:1;
+}
+.ring .pct small{font-family:var(--mono);font-size:10px;color:var(--chrome-dim);letter-spacing:.15em;margin-top:3px}
+.dash-nums{display:grid;grid-template-columns:1fr 1fr;gap:4px 20px}
+.dash-num b{font-family:var(--disp);font-size:22px;font-weight:800}
+.dash-num span{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--chrome-dim)}
+.dash-num.red b{color:#ED6A5E}
+.dash-num.green b{color:#4CBB80}
+.dash-num.blue b{color:#6E9FD8}
+.dash-sec-title{
+  font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--chrome-dim);margin:22px 2px 8px;
+}
+.team-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px}
+.team-row{
+  display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:8px;
+  background:rgba(255,255,255,.05);text-align:left;min-height:44px;
+}
+.team-row:hover{background:rgba(255,255,255,.09)}
+.flag{width:20px;height:14px;border-radius:2.5px;flex:none;box-shadow:0 0 0 1px rgba(255,255,255,.18)}
+.team-row .tr-code{font-family:var(--disp);font-weight:800;font-size:13px;width:34px}
+.team-row .tr-bar{flex:1;height:4px;border-radius:2px;background:rgba(255,255,255,.13);overflow:hidden}
+.team-row .tr-bar i{display:block;height:100%;background:var(--host-green)}
+.team-row .tr-bar i.full{background:#E7C24C}
+.team-row .tr-n{font-family:var(--mono);font-size:10.5px;color:var(--chrome-dim);width:38px;text-align:right}
+.dash-actions{display:flex;gap:8px;margin:20px 0 8px;flex-wrap:wrap}
+.btn{
+  padding:10px 16px;border-radius:8px;font-family:var(--disp);font-weight:700;font-size:13px;
+  letter-spacing:.05em;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);
+  min-height:44px;
+}
+.btn:hover{background:rgba(255,255,255,.14)}
+.btn.primary{background:var(--host-green);border-color:var(--host-green);color:#fff}
+.btn.primary:hover{background:#23904F}
+
+/* ---------- Album ---------- */
+.team-strip{
+  position:sticky;top:128px;z-index:38;
+  display:flex;gap:5px;overflow-x:auto;padding:6px 2px 10px;
+  scrollbar-width:none;
+  background:var(--pitch);
+  box-shadow:0 10px 12px -10px rgba(0,0,0,.55);
+  -webkit-overflow-scrolling:touch;
+}
+.team-strip::-webkit-scrollbar{display:none}
+.chip{
+  flex:none;display:flex;align-items:center;gap:6px;
+  padding:7px 10px;border-radius:99px;min-height:38px;
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);
+  font-family:var(--disp);font-weight:700;font-size:12px;
+}
+.chip.done{border-color:#E7C24C;color:#E7C24C}
+.chip .flag{width:16px;height:11px}
+.chip small{font-family:var(--mono);font-weight:400;font-size:9.5px;color:var(--chrome-dim)}
+.search-wrap{padding:2px 2px 8px}
+.search{
+  width:100%;padding:10px 14px;border-radius:8px;border:1px solid rgba(255,255,255,.15);
+  background:rgba(255,255,255,.06);color:#fff;font:inherit;min-height:44px;
+}
+.search::placeholder{color:var(--chrome-dim)}
+
+.page{
+  background:var(--paper);color:var(--ink);
+  border-radius:var(--radius);
+  padding:14px 14px 18px;margin:0 0 14px;
+  box-shadow:0 1px 0 rgba(255,255,255,.06) inset, 0 10px 24px -14px rgba(0,0,0,.65);
+  scroll-margin-top:190px;
+}
+.page-head{display:flex;align-items:center;gap:10px;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:12px}
+.page-head .flag{width:26px;height:18px;box-shadow:0 0 0 1px rgba(26,35,33,.25)}
+.page-head h2{
+  font-family:var(--disp);font-weight:800;font-size:19px;letter-spacing:.02em;
+  text-transform:uppercase;line-height:1.05;
+}
+.page-head .ph-sub{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--ink-soft);text-transform:uppercase}
+.page-head .ph-count{margin-left:auto;text-align:right;font-family:var(--mono);font-size:12px;color:var(--ink-soft)}
+.page-head .ph-count b{font-size:17px;color:var(--ink)}
+.page-head .ph-count .full{color:var(--host-green)}
+.slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(72px,1fr));gap:8px}
+
+.slot{
+  position:relative;aspect-ratio:3/4;border-radius:6px;
+  border:2px dashed var(--line);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
+  padding:4px 3px;text-align:center;color:var(--ink-soft);
+  -webkit-tap-highlight-color:transparent;
+  touch-action:manipulation;
+  user-select:none;-webkit-user-select:none;
+}
+.slot .num{font-family:var(--disp);font-weight:800;font-size:19px;line-height:1;color:var(--ink);opacity:.32}
+.slot .nm{font-size:8.5px;line-height:1.15;max-height:2.3em;overflow:hidden;word-break:break-word}
+.slot .code{font-family:var(--mono);font-size:8px;letter-spacing:.06em;opacity:.7}
+.slot.foil::after{
+  content:"✦";position:absolute;top:3px;right:5px;font-size:9px;color:var(--ink-soft);opacity:.55;
+}
+.slot.owned{
+  border:1px solid rgba(26,35,33,.25);
+  background:#fff;
+  color:var(--ink);
+  transform:rotate(var(--rot,0deg));
+  box-shadow:0 2px 5px -1px rgba(26,35,33,.35);
+}
+.slot.owned .num{opacity:1;color:var(--host-green)}
+.slot.owned .nm{font-weight:600}
+.slot.owned.foil{background:var(--foil);border-color:rgba(26,35,33,.35)}
+.slot.owned.foil::after{color:#6b5d8f;opacity:.9}
+.slot.just-stuck{animation:stick .32s cubic-bezier(.2,1.4,.4,1)}
+@keyframes stick{
+  0%{transform:scale(1.18) rotate(var(--rot,0deg));box-shadow:0 14px 22px -6px rgba(26,35,33,.5)}
+  100%{transform:scale(1) rotate(var(--rot,0deg));box-shadow:0 2px 5px -1px rgba(26,35,33,.35)}
+}
+@media (prefers-reduced-motion:reduce){.slot.just-stuck{animation:none}}
+.slot .dupe{
+  position:absolute;bottom:-5px;right:-5px;
+  min-width:20px;height:20px;padding:0 4px;border-radius:99px;
+  background:var(--host-red);color:#fff;
+  font-family:var(--mono);font-size:10.5px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 1px 3px rgba(0,0,0,.4);
+}
+.page.filtered .slot.hide{display:none}
+
+/* ---------- Doppelte ---------- */
+.dupe-hint{font-size:12.5px;color:var(--chrome-dim);padding:10px 2px}
+.dupe-list{display:flex;flex-direction:column;gap:6px}
+.dupe-row{
+  display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:8px;
+  background:var(--paper);color:var(--ink);
+}
+.dupe-row .flag{width:20px;height:14px;flex:none;box-shadow:0 0 0 1px rgba(26,35,33,.2)}
+.dupe-row .dr-code{font-family:var(--mono);font-size:12px;font-weight:700;width:56px}
+.dupe-row .dr-name{flex:1;font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dupe-row .step{display:flex;align-items:center;gap:2px}
+.dupe-row .step button{
+  width:38px;height:38px;border-radius:7px;background:var(--paper-2);
+  font-size:18px;font-weight:700;color:var(--ink);display:grid;place-content:center;
+}
+.dupe-row .step button:hover{background:#E3DDCE}
+.dupe-row .step b{font-family:var(--mono);font-size:14px;width:34px;text-align:center}
+.empty-note{padding:28px 10px;text-align:center;color:var(--chrome-dim);font-size:13.5px}
+
+/* ---------- Tausch ---------- */
+.trade-block{background:var(--paper);color:var(--ink);border-radius:var(--radius);padding:14px;margin-bottom:14px}
+.trade-block h3{
+  font-family:var(--disp);font-weight:800;font-size:15px;text-transform:uppercase;letter-spacing:.04em;
+  display:flex;align-items:baseline;gap:8px;margin-bottom:10px;
+}
+.trade-block h3 .cnt{font-family:var(--mono);font-size:11px;color:var(--ink-soft);font-weight:400}
+.trade-block h3.want{color:var(--host-red)}
+.trade-block h3.have{color:var(--host-green)}
+.trade-team{margin-bottom:8px;font-size:12.5px}
+.trade-team .tt-label{font-family:var(--disp);font-weight:700;font-size:11.5px;margin-right:6px}
+.trade-codes{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);word-spacing:.35em;line-height:1.8}
+.trade-codes b{color:var(--ink)}
+
+/* ---------- Dialog / Toast ---------- */
+dialog{
+  border:none;border-radius:12px;background:var(--paper);color:var(--ink);
+  padding:18px;width:min(480px,92vw);margin:auto;
+}
+dialog::backdrop{background:rgba(5,12,8,.7)}
+dialog h3{font-family:var(--disp);font-weight:800;font-size:16px;text-transform:uppercase;margin-bottom:8px}
+dialog p{font-size:12.5px;color:var(--ink-soft);margin-bottom:10px}
+dialog textarea{
+  width:100%;height:130px;font-family:var(--mono);font-size:11px;
+  border:1px solid var(--line);border-radius:8px;padding:10px;resize:vertical;
+  background:#fff;color:var(--ink);
+}
+dialog .row{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}
+dialog .btn{background:var(--paper-2);border-color:var(--line);color:var(--ink)}
+dialog .btn.primary{background:var(--host-green);color:#fff;border-color:var(--host-green)}
+#toast{
+  position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(90px);
+  background:#fff;color:var(--ink);padding:10px 18px;border-radius:99px;
+  font-size:13px;font-weight:600;box-shadow:0 8px 24px rgba(0,0,0,.4);
+  transition:transform .3s ease;z-index:100;pointer-events:none;max-width:88vw;text-align:center;
+}
+#toast.show{transform:translateX(-50%) translateY(0)}
+@media (prefers-reduced-motion:reduce){#toast{transition:none}}
+
+@media (max-width:420px){
+  .slots{grid-template-columns:repeat(4,1fr)}
+  .dash-hero{gap:14px}
+  .tab{font-size:11px;letter-spacing:.03em}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <div class="eyebrow">FIFA World Cup 26™ · Sticker Collection</div>
+    <div class="head-row">
+      <h1>Mein Album <span class="y">’26</span></h1>
+      <div class="head-count"><b id="hc-own">0</b><span> / 980</span></div>
+    </div>
+    <div class="head-bar"><i id="hc-bar" style="width:0%"></i></div>
+  </div>
+</header>
+
+<nav>
+  <div class="tabs" role="tablist" aria-label="Bereiche">
+    <button class="tab" role="tab" id="tab-dash" aria-selected="true" data-view="dash">Übersicht</button>
+    <button class="tab" role="tab" id="tab-album" aria-selected="false" data-view="album">Album</button>
+    <button class="tab" role="tab" id="tab-dupes" aria-selected="false" data-view="dupes">Doppelte</button>
+    <button class="tab" role="tab" id="tab-trade" aria-selected="false" data-view="trade">Tausch</button>
+  </div>
+</nav>
+
+<main>
+  <section id="view-dash" role="tabpanel" aria-labelledby="tab-dash">
+    <div class="dash-hero">
+      <div class="ring">
+        <svg width="118" height="118" viewBox="0 0 118 118" aria-hidden="true">
+          <circle cx="59" cy="59" r="52" fill="none" stroke="rgba(255,255,255,.1)" stroke-width="9"/>
+          <circle id="ring-fg" cx="59" cy="59" r="52" fill="none" stroke="#2fa367" stroke-width="9"
+                  stroke-linecap="round" stroke-dasharray="326.7" stroke-dashoffset="326.7"/>
+        </svg>
+        <div class="pct"><span id="d-pct">0%</span><small>komplett</small></div>
+      </div>
+      <div class="dash-nums">
+        <div class="dash-num green"><b id="d-own">0</b><span>im Album</span></div>
+        <div class="dash-num red"><b id="d-miss">0</b><span>fehlen</span></div>
+        <div class="dash-num blue"><b id="d-dupes">0</b><span>doppelt</span></div>
+        <div class="dash-num"><b id="d-foil">0</b><span>Glitzer ✦</span></div>
+      </div>
+    </div>
+
+    <div class="dash-actions">
+      <button class="btn primary" id="btn-export">App-Code exportieren</button>
+      <button class="btn" id="btn-import">App-Code importieren</button>
+    </div>
+
+    <div class="dash-sec-title">Specials &amp; Extras</div>
+    <div class="team-grid" id="dash-specials"></div>
+
+    <div class="dash-sec-title">48 Teams · Gruppe A–L</div>
+    <div class="team-grid" id="dash-teams"></div>
+  </section>
+
+  <section id="view-album" role="tabpanel" aria-labelledby="tab-album" hidden>
+    <div class="team-strip" id="team-strip"></div>
+    <div class="search-wrap">
+      <input class="search" id="search" type="search" aria-label="Sticker nach Spieler oder Code durchsuchen"
+             placeholder="Spieler oder Code suchen … z. B. Kimmich, MEX13" autocomplete="off">
+    </div>
+    <div id="pages"></div>
+  </section>
+
+  <section id="view-dupes" role="tabpanel" aria-labelledby="tab-dupes" hidden>
+    <p class="dupe-hint">Im Album einen Sticker <b>gedrückt halten</b> = Duplikat +1. Hier verwaltest du die Stapel.</p>
+    <div class="dupe-list" id="dupe-list"></div>
+  </section>
+
+  <section id="view-trade" role="tabpanel" aria-labelledby="tab-trade" hidden>
+    <div class="dash-actions" style="margin-top:10px">
+      <button class="btn primary" id="btn-copytrade">Tauschliste kopieren</button>
+    </div>
+    <div class="trade-block">
+      <h3 class="want">Ich suche <span class="cnt" id="want-cnt"></span></h3>
+      <div id="want-list"></div>
+    </div>
+    <div class="trade-block">
+      <h3 class="have">Ich biete <span class="cnt" id="have-cnt"></span></h3>
+      <div id="have-list"></div>
+    </div>
+  </section>
+</main>
+
+<dialog id="dlg-export">
+  <h3>App-Code (Backup)</h3>
+  <p>Dieser Code ist kompatibel mit der App „Sticker Album 2026“ (Wiederherstellen aus Backup) — und mit dieser Seite.</p>
+  <textarea id="export-text" readonly></textarea>
+  <div class="row">
+    <button class="btn" data-close>Schließen</button>
+    <button class="btn primary" id="btn-copyexport">Kopieren</button>
+  </div>
+</dialog>
+
+<dialog id="dlg-import">
+  <h3>App-Code importieren</h3>
+  <p>Code aus der App („Backup erstellen“) oder von dieser Seite einfügen. <b>Ersetzt</b> den aktuellen Stand.</p>
+  <textarea id="import-text" placeholder="SA26|1|…"></textarea>
+  <div class="row">
+    <button class="btn" data-close>Abbrechen</button>
+    <button class="btn primary" id="btn-doimport">Importieren</button>
+  </div>
+</dialog>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+"use strict";
+/* ====== Daten (aus checklist.json generiert) ====== */
+const DATA = __DATA__;
+/* Start-Stand aus dem SA26-Backup-Code (05.07.2026) */
+const SEED = __SEED__;
+
+/* Flaggen als CSS-Gradients (vereinfacht) — robust auf Windows, wo Flaggen-Emoji nicht rendern */
+const FLAGS = {
+ MEX:"linear-gradient(90deg,#006847 33%,#fff 33% 66%,#ce1126 66%)",
+ RSA:"linear-gradient(180deg,#de3831 33%,#007a4d 33% 66%,#001489 66%)",
+ KOR:"linear-gradient(180deg,#fff 42%,#cd2e3a 42% 58%,#0047a0 58% 74%,#fff 74%)",
+ CZE:"linear-gradient(180deg,#fff 50%,#d7141a 50%)",
+ CAN:"linear-gradient(90deg,#d80621 28%,#fff 28% 72%,#d80621 72%)",
+ BIH:"linear-gradient(135deg,#002395 60%,#fecb00 60%)",
+ QAT:"linear-gradient(90deg,#fff 30%,#8a1538 30%)",
+ SUI:"linear-gradient(90deg,#da291c 38%,#fff 38% 62%,#da291c 62%)",
+ BRA:"linear-gradient(135deg,#009739 25%,#fedd00 25% 75%,#009739 75%)",
+ MAR:"linear-gradient(135deg,#c1272d 55%,#006233 55%)",
+ HAI:"linear-gradient(180deg,#00209f 50%,#d21034 50%)",
+ SCO:"linear-gradient(135deg,#005eb8 45%,#fff 45% 55%,#005eb8 55%)",
+ USA:"linear-gradient(180deg,#b31942 33%,#fff 33% 66%,#0a3161 66%)",
+ PAR:"linear-gradient(180deg,#d52b1e 33%,#fff 33% 66%,#0038a8 66%)",
+ AUS:"linear-gradient(135deg,#012169 55%,#e4002b 55%)",
+ TUR:"linear-gradient(90deg,#e30a17 60%,#fff 60% 70%,#e30a17 70%)",
+ GER:"linear-gradient(180deg,#000 33%,#dd0000 33% 66%,#ffce00 66%)",
+ CUW:"linear-gradient(180deg,#002b7f 55%,#f9e814 55% 70%,#002b7f 70%)",
+ CIV:"linear-gradient(90deg,#ff8200 33%,#fff 33% 66%,#009a44 66%)",
+ ECU:"linear-gradient(180deg,#ffd100 50%,#0072ce 50% 75%,#ef3340 75%)",
+ NED:"linear-gradient(180deg,#ae1c28 33%,#fff 33% 66%,#21468b 66%)",
+ JPN:"radial-gradient(circle at 50% 50%,#bc002d 34%,#fff 36%)",
+ SWE:"linear-gradient(90deg,#006aa7 33%,#fecc02 33% 48%,#006aa7 48%)",
+ TUN:"linear-gradient(90deg,#e70013 40%,#fff 40% 60%,#e70013 60%)",
+ BEL:"linear-gradient(90deg,#000 33%,#fdda24 33% 66%,#ef3340 66%)",
+ EGY:"linear-gradient(180deg,#ce1126 33%,#fff 33% 66%,#000 66%)",
+ IRN:"linear-gradient(180deg,#239f40 33%,#fff 33% 66%,#da0000 66%)",
+ NZL:"linear-gradient(135deg,#012169 60%,#cc142b 60%)",
+ ESP:"linear-gradient(180deg,#aa151b 25%,#f1bf00 25% 75%,#aa151b 75%)",
+ CPV:"linear-gradient(180deg,#003893 50%,#fff 50% 62%,#cf2027 62% 74%,#fff 74% 86%,#003893 86%)",
+ KSA:"linear-gradient(135deg,#165d31 70%,#fff 70%)",
+ URU:"linear-gradient(180deg,#fff 20%,#0038a8 20% 40%,#fff 40% 60%,#0038a8 60% 80%,#fff 80%)",
+ FRA:"linear-gradient(90deg,#002395 33%,#fff 33% 66%,#ed2939 66%)",
+ SEN:"linear-gradient(90deg,#00853f 33%,#fdef42 33% 66%,#e31b23 66%)",
+ IRQ:"linear-gradient(180deg,#ce1126 33%,#fff 33% 66%,#000 66%)",
+ NOR:"linear-gradient(90deg,#ba0c2f 30%,#fff 30% 40%,#00205b 40% 60%,#fff 60% 70%,#ba0c2f 70%)",
+ ARG:"linear-gradient(180deg,#74acdf 33%,#fff 33% 66%,#74acdf 66%)",
+ ALG:"linear-gradient(90deg,#006233 50%,#fff 50%)",
+ AUT:"linear-gradient(180deg,#ed2939 33%,#fff 33% 66%,#ed2939 66%)",
+ JOR:"linear-gradient(180deg,#000 33%,#fff 33% 66%,#007a3d 66%)",
+ POR:"linear-gradient(90deg,#006600 35%,#ff0000 35%)",
+ COD:"linear-gradient(135deg,#007fff 40%,#f7d618 40% 55%,#ce1021 55% 70%,#007fff 70%)",
+ UZB:"linear-gradient(180deg,#0099b5 33%,#fff 33% 66%,#1eb53a 66%)",
+ COL:"linear-gradient(180deg,#ffcd00 50%,#003087 50% 75%,#c8102e 75%)",
+ ENG:"linear-gradient(90deg,#fff 42%,#ce1124 42% 58%,#fff 58%)",
+ CRO:"linear-gradient(180deg,#ff0000 33%,#fff 33% 66%,#171796 66%)",
+ GHA:"linear-gradient(180deg,#ce1126 33%,#fcd116 33% 66%,#006b3f 66%)",
+ PAN:"linear-gradient(90deg,#072357 50%,#fff 50% 66%,#da121a 66%)",
+ FWC:"linear-gradient(135deg,#8a6c2f 30%,#c9a94e 50%,#8a6c2f 70%)",
+ CC:"linear-gradient(135deg,#f40009 65%,#fff 65%)"
+};
+
+/* ====== Sticker-Index aufbauen ====== */
+/* Sektionen in App-Reihenfolge: Intro (00+FWC), Coca-Cola (Extra), 48 Teams */
+const SECTIONS = [];
+const BY_APP = new Map();     // app_number -> sticker
+const OFFICIAL = new Set();   // app_numbers der offiziellen 980
+
+(function build(){
+  const intro = {key:"FWC", title:"Intro & Specials", sub:"00 · FWC1–19", flag:FLAGS.FWC, official:true, stickers:[]};
+  for (const [code,name,foil,app] of DATA.specials){
+    const st = {app, code, name, foil:!!foil, sec:intro};
+    intro.stickers.push(st); BY_APP.set(app, st); OFFICIAL.add(app);
+  }
+  SECTIONS.push(intro);
+
+  const cc = {key:"CC", title:"Coca-Cola Extras", sub:"Bonus · zählt nicht zu den 980", flag:FLAGS.CC, official:false, stickers:[]};
+  for (const [code,name,app] of DATA.cc){
+    const st = {app, code, name, foil:false, sec:cc};
+    cc.stickers.push(st); BY_APP.set(app, st);
+  }
+  SECTIONS.push(cc);
+
+  for (const t of DATA.teams){
+    const sec = {key:t.c, title:t.n, sub:"Gruppe "+t.g, flag:FLAGS[t.c]||"#888", official:true, stickers:[], group:t.g};
+    for (const [num,name,foil,app] of t.s){
+      const st = {app, code:t.c+num, name, foil:!!foil, sec};
+      sec.stickers.push(st); BY_APP.set(app, st); OFFICIAL.add(app);
+    }
+    SECTIONS.push(sec);
+  }
+})();
+const FOIL_TOTAL = [...BY_APP.values()].filter(s=>s.foil && OFFICIAL.has(s.app)).length;
+
+/* ====== Zustand ====== */
+const LS_KEY = "panini26";
+let state = load();
+function load(){
+  try{
+    const raw = localStorage.getItem(LS_KEY);
+    if (raw){ const p = JSON.parse(raw); return {owned:new Set(p.owned), dupes:p.dupes||{}}; }
+  }catch(e){}
+  return {owned:new Set(SEED.owned), dupes:{...SEED.dupes}};
+}
+function save(){
+  localStorage.setItem(LS_KEY, JSON.stringify({owned:[...state.owned], dupes:state.dupes}));
+}
+
+/* ====== SA26-Code parse/serialize ====== */
+function parseSA26(text){
+  const m = text.trim().match(/SA26\|(\d+)\|([\d,\-]*)\|?([\d,:]*)/);
+  if (!m) return null;
+  const owned = new Set();
+  if (m[2]) for (const part of m[2].split(",")){
+    if (!part) continue;
+    const [a,b] = part.split("-").map(Number);
+    if (b !== undefined){ for(let i=a;i<=b;i++) owned.add(i); } else owned.add(a);
+  }
+  const dupes = {};
+  if (m[3]) for (const part of m[3].split(",")){
+    if (!part) continue;
+    const [app,c] = part.split(":").map(Number);
+    if (app) dupes[app] = c;
+  }
+  return {owned:[...owned], dupes};
+}
+function toSA26(){
+  const nums = [...state.owned].sort((a,b)=>a-b);
+  const ranges = [];
+  for (let i=0;i<nums.length;i++){
+    let j=i; while (j+1<nums.length && nums[j+1]===nums[j]+1) j++;
+    ranges.push(j>i ? nums[i]+"-"+nums[j] : ""+nums[i]);
+    i=j;
+  }
+  const d = Object.entries(state.dupes)
+    .filter(([,c])=>c>0)
+    .sort((a,b)=>a[0]-b[0])
+    .map(([app,c])=>app+":"+c).join(",");
+  return "SA26|1|"+ranges.join(",")+"|"+d;
+}
+
+/* ====== Rendering ====== */
+const $ = s=>document.querySelector(s);
+const pagesEl = $("#pages"), stripEl = $("#team-strip");
+
+function rotFor(app){ return ((app*7)%5)-2; } /* deterministisch ±2° */
+
+function renderAlbum(){
+  let pHtml = "", sHtml = "";
+  for (const sec of SECTIONS){
+    const id = "sec-"+sec.key;
+    sHtml += `<button class="chip" data-goto="${id}" data-key="${sec.key}">
+      <span class="flag" style="background:${sec.flag}"></span>${sec.key}
+      <small data-cnt>0/${sec.stickers.length}</small></button>`;
+    let slots = "";
+    for (const st of sec.stickers){
+      const local = st.code.replace(/^[A-Z]+/,"") || st.code;
+      slots += `<button class="slot${st.foil?" foil":""}" data-app="${st.app}" style="--rot:${rotFor(st.app)}deg"
+        aria-pressed="false" aria-label="${st.code} ${esc(st.name)}">
+        <span class="num">${local==="00"?"00":local}</span>
+        <span class="nm">${esc(st.name)}</span>
+        <span class="code">${st.code}</span>
+      </button>`;
+    }
+    pHtml += `<div class="page" id="${id}" data-key="${sec.key}">
+      <div class="page-head">
+        <span class="flag" style="background:${sec.flag}"></span>
+        <div><h2>${esc(sec.title)}</h2><div class="ph-sub">${esc(sec.sub)}</div></div>
+        <div class="ph-count"><b data-cnt>0</b>/${sec.stickers.length}</div>
+      </div>
+      <div class="slots">${slots}</div>
+    </div>`;
+  }
+  stripEl.innerHTML = sHtml;
+  pagesEl.innerHTML = pHtml;
+}
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;"); }
+
+function refreshSlot(app){
+  const el = pagesEl.querySelector(`.slot[data-app="${app}"]`);
+  if (!el) return;
+  const owned = state.owned.has(app);
+  el.classList.toggle("owned", owned);
+  el.setAttribute("aria-pressed", owned);
+  let badge = el.querySelector(".dupe");
+  const c = state.dupes[app]||0;
+  if (owned && c>0){
+    if (!badge){ badge = document.createElement("span"); badge.className="dupe"; el.appendChild(badge); }
+    badge.textContent = "×"+(c+1);
+  } else if (badge) badge.remove();
+}
+
+function refreshCounts(){
+  const ownOfficial = [...state.owned].filter(a=>OFFICIAL.has(a)).length;
+  const pct = ownOfficial/980*100;
+  $("#hc-own").textContent = ownOfficial;
+  $("#hc-bar").style.width = pct+"%";
+  $("#d-pct").textContent = (pct<10?pct.toFixed(1):Math.round(pct))+"%";
+  $("#d-own").textContent = ownOfficial;
+  $("#d-miss").textContent = 980-ownOfficial;
+  $("#d-dupes").textContent = Object.values(state.dupes).reduce((s,c)=>s+(c>0?c:0),0);
+  const foilOwn = [...state.owned].filter(a=>{const s=BY_APP.get(a);return s&&s.foil&&OFFICIAL.has(a);}).length;
+  $("#d-foil").textContent = foilOwn+"/"+FOIL_TOTAL;
+  $("#ring-fg").style.strokeDashoffset = 326.7*(1-pct/100);
+
+  for (const sec of SECTIONS){
+    const own = sec.stickers.filter(s=>state.owned.has(s.app)).length;
+    const total = sec.stickers.length;
+    const page = document.getElementById("sec-"+sec.key);
+    if (page){
+      const b = page.querySelector("[data-cnt]");
+      b.textContent = own; b.classList.toggle("full", own===total);
+    }
+    const chip = stripEl.querySelector(`.chip[data-key="${sec.key}"]`);
+    if (chip){
+      chip.querySelector("[data-cnt]").textContent = own+"/"+total;
+      chip.classList.toggle("done", own===total);
+    }
+  }
+  renderDash(); renderDupes(); renderTrade();
+}
+
+function renderDash(){
+  const mk = sec=>{
+    const own = sec.stickers.filter(s=>state.owned.has(s.app)).length;
+    const total = sec.stickers.length, full = own===total;
+    return `<button class="team-row" data-goto="sec-${sec.key}">
+      <span class="flag" style="background:${sec.flag}"></span>
+      <span class="tr-code">${sec.key}</span>
+      <span class="tr-bar"><i class="${full?"full":""}" style="width:${own/total*100}%"></i></span>
+      <span class="tr-n">${own}/${total}</span></button>`;
+  };
+  $("#dash-specials").innerHTML = SECTIONS.filter(s=>!s.group).map(mk).join("");
+  $("#dash-teams").innerHTML = SECTIONS.filter(s=>s.group).map(mk).join("");
+}
+
+function renderDupes(){
+  const rows = Object.entries(state.dupes)
+    .filter(([,c])=>c>0)
+    .map(([app,c])=>({st:BY_APP.get(+app), c}))
+    .filter(x=>x.st)
+    .sort((a,b)=>a.st.app-b.st.app);
+  if (!rows.length){
+    $("#dupe-list").innerHTML = `<div class="empty-note">Noch keine Duplikate erfasst.<br>Im Album einen Sticker gedrückt halten → Stapel wächst.</div>`;
+    return;
+  }
+  $("#dupe-list").innerHTML = rows.map(({st,c})=>`
+    <div class="dupe-row">
+      <span class="flag" style="background:${st.sec.flag}"></span>
+      <span class="dr-code">${st.code}</span>
+      <span class="dr-name">${esc(st.name)}</span>
+      <span class="step">
+        <button data-dupe="-${st.app}" aria-label="${st.code} Duplikat entfernen">−</button>
+        <b>×${c+1}</b>
+        <button data-dupe="+${st.app}" aria-label="${st.code} Duplikat hinzufügen">+</button>
+      </span>
+    </div>`).join("");
+}
+
+function renderTrade(){
+  let wantN=0, haveN=0, wantHtml="", haveHtml="";
+  for (const sec of SECTIONS){
+    const miss = sec.stickers.filter(s=>!state.owned.has(s.app));
+    if (miss.length && sec.official){
+      wantN += miss.length;
+      wantHtml += `<div class="trade-team"><span class="tt-label">${sec.key}</span>
+        <span class="trade-codes">${miss.map(s=>s.code.replace(sec.key==="FWC"?"":sec.key,"")||s.code).join(" ")}</span></div>`;
+    }
+    const dup = sec.stickers.filter(s=>(state.dupes[s.app]||0)>0);
+    if (dup.length){
+      haveN += dup.reduce((n,s)=>n+state.dupes[s.app],0);
+      haveHtml += `<div class="trade-team"><span class="tt-label">${sec.key}</span>
+        <span class="trade-codes">${dup.map(s=>{
+          const c=state.dupes[s.app];
+          const short=s.code.replace(sec.key==="FWC"?"":sec.key,"")||s.code;
+          return c>1?`<b>${short}(${c}×)</b>`:short;
+        }).join(" ")}</span></div>`;
+    }
+  }
+  $("#want-cnt").textContent = wantN+" Sticker";
+  $("#have-cnt").textContent = haveN+" Sticker";
+  $("#want-list").innerHTML = wantHtml || `<div class="empty-note">Nichts — Album komplett! 🏆</div>`;
+  $("#have-list").innerHTML = haveHtml || `<div class="empty-note">Keine Duplikate zum Tauschen.</div>`;
+}
+
+/* ====== Interaktion ====== */
+let lpTimer = null, lpFired = false;
+
+pagesEl.addEventListener("pointerdown", e=>{
+  const slot = e.target.closest(".slot"); if (!slot) return;
+  clearTimeout(lpTimer);
+  lpFired = false;
+  lpTimer = setTimeout(()=>{
+    lpFired = true;
+    const app = +slot.dataset.app;
+    if (!state.owned.has(app)){ state.owned.add(app); stick(slot); }
+    else {
+      state.dupes[app] = (state.dupes[app]||0)+1;
+      if (navigator.vibrate) navigator.vibrate(20);
+      toast(BY_APP.get(app).code+" · Duplikat ×"+(state.dupes[app]+1));
+    }
+    save(); refreshSlot(app); refreshCounts();
+  }, 450);
+});
+["pointerup","pointerleave","pointercancel"].forEach(ev=>
+  pagesEl.addEventListener(ev, ()=>clearTimeout(lpTimer)));
+pagesEl.addEventListener("click", e=>{
+  const slot = e.target.closest(".slot"); if (!slot || lpFired) return;
+  const app = +slot.dataset.app;
+  if (state.owned.has(app)){
+    state.owned.delete(app); delete state.dupes[app];
+  } else {
+    state.owned.add(app); stick(slot);
+  }
+  save(); refreshSlot(app); refreshCounts();
+});
+function stick(slot){
+  slot.classList.remove("just-stuck"); void slot.offsetWidth;
+  slot.classList.add("just-stuck");
+}
+
+document.addEventListener("click", e=>{
+  const go = e.target.closest("[data-goto]");
+  if (go){
+    switchView("album");
+    document.getElementById(go.dataset.goto)?.scrollIntoView({block:"start"});
+    return;
+  }
+  const d = e.target.closest("[data-dupe]");
+  if (d){
+    const v = d.dataset.dupe, app = +v.slice(1);
+    state.dupes[app] = Math.max(0,(state.dupes[app]||0) + (v[0]==="+"?1:-1));
+    if (!state.dupes[app]) delete state.dupes[app];
+    save(); refreshSlot(app); refreshCounts();
+  }
+});
+
+/* Tabs */
+document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>switchView(t.dataset.view)));
+function switchView(v){
+  document.querySelectorAll(".tab").forEach(t=>t.setAttribute("aria-selected", t.dataset.view===v));
+  for (const view of ["dash","album","dupes","trade"])
+    document.getElementById("view-"+view).hidden = view!==v;
+}
+
+/* Suche */
+$("#search").addEventListener("input", e=>{
+  const q = e.target.value.trim().toLowerCase();
+  for (const page of pagesEl.children){
+    if (!q){ page.classList.remove("filtered"); page.style.display=""; continue; }
+    page.classList.add("filtered");
+    let any = false;
+    for (const slot of page.querySelectorAll(".slot")){
+      const st = BY_APP.get(+slot.dataset.app);
+      const hit = st.name.toLowerCase().includes(q) || st.code.toLowerCase().includes(q);
+      slot.classList.toggle("hide", !hit);
+      if (hit) any = true;
+    }
+    page.style.display = any ? "" : "none";
+  }
+});
+
+/* Import / Export */
+$("#btn-export").addEventListener("click", ()=>{
+  $("#export-text").value = toSA26();
+  $("#dlg-export").showModal();
+});
+$("#btn-copyexport").addEventListener("click", async ()=>{
+  await navigator.clipboard.writeText($("#export-text").value).catch(()=>{});
+  toast("Code kopiert");
+});
+$("#btn-import").addEventListener("click", ()=>{
+  $("#import-text").value = "";
+  $("#dlg-import").showModal();
+});
+$("#btn-doimport").addEventListener("click", ()=>{
+  const p = parseSA26($("#import-text").value);
+  if (!p){ toast("Kein gültiger SA26-Code"); return; }
+  state = {owned:new Set(p.owned), dupes:p.dupes};
+  save();
+  for (const app of BY_APP.keys()) refreshSlot(app);
+  refreshCounts();
+  $("#dlg-import").close();
+  toast(p.owned.length+" Sticker importiert");
+});
+document.querySelectorAll("dialog [data-close]").forEach(b=>
+  b.addEventListener("click", ()=>b.closest("dialog").close()));
+
+/* Tauschliste kopieren */
+$("#btn-copytrade").addEventListener("click", async ()=>{
+  const ownOfficial = [...state.owned].filter(a=>OFFICIAL.has(a)).length;
+  let txt = "PANINI WM26 – Stand "+ownOfficial+"/980\n\nSUCHE:\n";
+  for (const sec of SECTIONS){
+    if (!sec.official) continue;
+    const miss = sec.stickers.filter(s=>!state.owned.has(s.app)).map(s=>s.code);
+    if (miss.length) txt += sec.key+": "+miss.join(", ")+"\n";
+  }
+  txt += "\nBIETE:\n";
+  for (const sec of SECTIONS){
+    const dup = sec.stickers.filter(s=>(state.dupes[s.app]||0)>0)
+      .map(s=>s.code+(state.dupes[s.app]>1?" ("+state.dupes[s.app]+"×)":""));
+    if (dup.length) txt += sec.key+": "+dup.join(", ")+"\n";
+  }
+  await navigator.clipboard.writeText(txt).catch(()=>{});
+  toast("Tauschliste kopiert – ab in die WhatsApp-Gruppe");
+});
+
+/* Toast */
+let toastTimer;
+function toast(msg){
+  const t = $("#toast");
+  t.textContent = msg; t.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>t.classList.remove("show"), 2200);
+}
+
+/* ====== Start ====== */
+renderAlbum();
+for (const app of state.owned) refreshSlot(app);
+refreshCounts();
+</script>
+</body>
+</html>
