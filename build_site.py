@@ -3,7 +3,7 @@
 import json, re, io, os
 
 SP = os.path.dirname(os.path.abspath(__file__))
-OUT = r"C:\Users\jelec\Documents\Projekte\panini-tracker\index.html"
+OUT = os.path.join(SP, "index.html")
 
 with io.open(os.path.join(SP, "checklist.json"), encoding="utf-8") as f:
     cl = json.load(f)
