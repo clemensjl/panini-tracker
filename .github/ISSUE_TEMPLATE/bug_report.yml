@@ -6,7 +6,7 @@ body:
     id: problem
     attributes:
       label: Was passiert
-      description: Bei falschen Nummern, Namen oder Teams: Sticker und was stattdessen stimmt
+      description: "Bei falschen Nummern, Namen oder Teams: Sticker und was stattdessen stimmt"
     validations:
       required: true
   - type: textarea
